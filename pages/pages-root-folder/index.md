@@ -19,7 +19,7 @@ widget2:
   url: 'https://youtu.be/yZFnqmQq6dY'
   video: '<a href="#" data-reveal-id="videoModal"><img src="https://i.ytimg.com/vi/yZFnqmQq6dY/maxresdefault.jpg" width="302" height="182" alt="Ловля на штекер"/></a>'
   image: 'https://i.ytimg.com/vi/yZFnqmQq6dY/maxresdefault.jpg'
-  text: 'Ловля на штекер. <br/>Увлекательная рыбалка 2019<br/> Всем привет! В этот раз штекерная ловля, расскажу и покажу мои оснастки. ловля на штекер увлекательная рыбалка. Всем рекомендую рыбалка именно на поплавок и именно ловля на штекерную удочку...'
+  text: 'Ловля на штекер. <br/>Увлекательная рыбалка 2019<br/> Всем привет! В этот раз штекерная ловля, расскажу и покажу мои оснастки. ловля на штекер увлекательная рыбалка...'
   video: '<a href="#" data-reveal-id="videoModal"><img src="https://i.ytimg.com/vi/yZFnqmQq6dY/maxresdefault.jpg" width="302" height="182" alt="Ловля на штекер"/></a>'
 widget3:
   title: "Ловля фидером"
