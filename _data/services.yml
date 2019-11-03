@@ -1,17 +1,17 @@
-- menu_name: "Services"
+- menu_name: "Инструменты"
 
-- name: "Contact"
+- name: "Контакт"
   url: "/contact/"
-  title: "Contact"
+  title: "Контакт"
 
 - name: "RSS"
   url: "/feed.xml"
-  title: "Subscribe to RSS Feed"
+  title: "Подпишитесь на RSS Feed"
 
 - name: "Atom"
   url: "/atom.xml"
-  title: "Subscribe to Atom Feed"
+  title: "Подпишитесь на Atom Feed"
 
 - name: "sitemap.xml"
   url: "/sitemap.xml"
-  title: "Sitemap for Google Webmaster Tools"
+  title: "Sitemap для Google Webmaster Tools"
