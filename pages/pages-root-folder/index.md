@@ -8,11 +8,12 @@ layout: frontpage
 header:
   image_fullwidth: header_foto.jpg
 widget1:
-  title: "Title text"
-  url: 'https://youtu.be/aHLPi4VObmo'
-  image: 
-  text: 'Every good portfolio website has a blog with fresh news, thoughts and develop&shy;ments of your activities. <em>Feeling Responsive</em> offers you a fully functional blog with an archive page to give readers a quick overview of all your posts.'
-  video: '<a href="#" data-reveal-id="videoModal1"><img src="https://i.ytimg.com/vi/aHLPi4VObmo/maxresdefault.jpg"" width="302" height="182" alt=""/></a>'
+  title: "Болонская ловля"
+  url: 'https://youtu.be/PUKzrA7Rmog'
+  image: https://i.ytimg.com/vi/PUKzrA7Rmog/sddefault.jpg
+  text:  Болонские поплавки. Болонская ловля на течении. Обзор
+  Всем привет! Решил записать на тему болонская ловля видео и сделать обзор про болонские поплавки, какие есть в моем арсенале. Рыбалка на болонский поплавок очень добычливая, хотя для многих ловля на болонскую удочку это состояние души. болонская удочка как универсальная поплавочная удочка применяется не только на реке, но и на стояке.болонская оснастка является очень простой, монтаж которой вы можете посмотреть на канале anglergold.tv. ловля на поплавок является консервативным способом ловли. болонская ловля на течении как любая ловля на поплавочную удочку требует подготовки рыболова, о чем также я рассказываю на канале...'
+  video: '<a href="#" data-reveal-id="videoModal1"><img src="https://i.ytimg.com/vi/PUKzrA7Rmog/sddefault.jpg" width="302" height="182" alt=""/></a>'
 widget2:
   title: "Why use this theme?"
   url: 'http://phlow.github.io/feeling-responsive/info/'
@@ -47,7 +48,7 @@ homepage: true
 
 <div id="videoModal1" class="reveal-modal large" data-reveal="">
   <div class="flex-video widescreen vimeo" style="display: block;">
-    <iframe width="1280" height="720" src="https://www.youtube.com/embed/aHLPi4VObmo" frameborder="0" allowfullscreen></iframe>
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/PUKzrA7Rmog" frameborder="0" allowfullscreen></iframe>
   </div>
   <a class="close-reveal-modal">&#215;</a>
 </div>
