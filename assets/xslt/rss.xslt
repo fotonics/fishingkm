@@ -31,11 +31,11 @@
 
 
 	<!-- Search Engine Optimization -->
-	<meta name="description" content="»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.">
-	<meta name="google-site-verification" content="">
-	<meta name="msvalidate.01" content="" >
+	<meta name="description" content="">
 	
-	<link rel="author" href="">
+	
+	
+	
 	
 	
 	<link rel="canonical" href="https://fotonics.github.io/fishingkm/assets/xslt/rss.xslt">
@@ -43,23 +43,15 @@
 
 	<!-- Facebook Open Graph -->
 	<meta property="og:title" content="RSS Feed (Styled)">
-	<meta property="og:description" content="»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.">
+	<meta property="og:description" content="">
 	<meta property="og:url" content="https://fotonics.github.io/fishingkm/assets/xslt/rss.xslt">
-	<meta property="og:locale" content="ru-RU">
+	<meta property="og:locale" content="en_EN">
 	<meta property="og:type" content="website">
-	<meta property="og:site_name" content="FishingKm">
+	<meta property="og:site_name" content="">
 	
-	<meta property="article:author" content="https://www.facebook.com/phlow.media">
+	
 
 
-	
-	<!-- Twitter -->
-	<meta name="twitter:card" content="summary">
-	<meta name="twitter:site" content="phlow">
-	<meta name="twitter:creator" content="phlow">
-	<meta name="twitter:title" content="RSS Feed (Styled)">
-	<meta name="twitter:description" content="»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.">
-	
 	
 
 	<link type="text/plain" rel="author" href="https://fotonics.github.io/fishingkm/humans.txt">
@@ -68,30 +60,29 @@
 
 	
 
-	<link rel="icon" sizes="32x32" href="https://fotonics.github.io/fishingkm/assets/img/favicon-32x32.png">
-
-	<link rel="icon" sizes="192x192" href="https://fotonics.github.io/fishingkm/assets/img/touch-icon-192x192.png">
-
-	<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://fotonics.github.io/fishingkm/assets/img/apple-touch-icon-180x180-precomposed.png">
-
-	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://fotonics.github.io/fishingkm/assets/img/apple-touch-icon-152x152-precomposed.png">
-
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://fotonics.github.io/fishingkm/assets/img/apple-touch-icon-144x144-precomposed.png">
-
-	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://fotonics.github.io/fishingkm/assets/img/apple-touch-icon-120x120-precomposed.png">
-
-	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://fotonics.github.io/fishingkm/assets/img/apple-touch-icon-114x114-precomposed.png">
+	
 
 	
-	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://fotonics.github.io/fishingkm/assets/img/apple-touch-icon-76x76-precomposed.png">
 
-	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://fotonics.github.io/fishingkm/assets/img/apple-touch-icon-72x72-precomposed.png">
+	
 
-	<link rel="apple-touch-icon-precomposed" href="https://fotonics.github.io/fishingkm/assets/img/apple-touch-icon-precomposed.png">	
+	
 
-	<meta name="msapplication-TileImage" content="https://fotonics.github.io/fishingkm/assets/img/msapplication_tileimage.png">
+	
 
-	<meta name="msapplication-TileColor" content="#fabb00">
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
 
 
 	
@@ -105,7 +96,7 @@
   <nav class="top-bar" role="navigation" data-topbar>
     <ul class="title-area">
       <li class="name">
-      <h1 class="show-for-small-only"><a href="https://fotonics.github.io/fishingkm" class="icon-tree"> FishingKm</a></h1>
+      <h1 class="show-for-small-only"><a href="https://fotonics.github.io/fishingkm" class="icon-tree"> </a></h1>
     </li>
        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
       <li class="toggle-topbar menu-icon"><a href="#"><span>Nav</span></a></li>
@@ -420,8 +411,8 @@
 <div id="masthead-no-image-header">
 	<div class="row">
 		<div class="small-12 columns">
-			<a id="logo" href="https://fotonics.github.io/fishingkm/" title="FishingKm – Рыбалка на Канале имени Москвы">
-				<img src="https://fotonics.github.io/fishingkm/assets/img/logo.png" alt="FishingKm – Рыбалка на Канале имени Москвы">
+			<a id="logo" href="https://fotonics.github.io/fishingkm/" title=" – ">
+				<img src="https://fotonics.github.io/fishingkm/assets/img/" alt=" – ">
 			</a>
 		</div><!-- /.small-12.columns -->
 	</div><!-- /.row -->
@@ -498,7 +489,7 @@
             <h5 class="shadow-black">О сайте</h5>
 
             <p class="shadow-black">
-              »Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.
+              
               <a href="https://fotonics.github.io/fishingkm/info/">Открыть ›</a>
             </p>
           </div><!-- /.large-6.columns -->
@@ -602,7 +593,7 @@
       <div id="subfooter">
         <nav class="row">
           <section id="subfooter-left" class="small-12 medium-6 columns credits">
-            <p>Created with &hearts; by <a href="http://phlow.de/">Phlow</a> with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.</p>
+            
           </section>
 
           <section id="subfooter-right" class="small-12 medium-6 columns">
