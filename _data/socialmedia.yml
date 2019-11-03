@@ -1,10 +1,10 @@
 - name: GitHub
-  url: http://github.com/phlow
+  url: http://github.com/fotonics
   class: icon-github
   title: Code und mehr...
 
 - name: YouTube
-  url: http://www.youtube.com/PhlowMedia
+  url: https://www.youtube.com/channel/UCu5X5sQkzeiRnViFUDH3z_g
   class: icon-youtube
   title: "Videos, Video-Anleitungen und Filme von Phlow auf YouTube"
 
@@ -13,20 +13,20 @@
   class: icon-twitter
   title: "Immer das Neuste von Phlow gibt es auf Twitter"
 
-- name: Mixcloud
-  url: http://www.mixcloud.com/phlow/
-  class: icon-cloud
-  title: "Mixe, was sonst?"
+#- name: Mixcloud
+#  url: http://www.mixcloud.com/phlow/
+#  class: icon-cloud
+#  title: "Mixe, was sonst?"
 
 #- name: Phlow YouTube Google+
 #  url: https://plus.google.com/u/0/+Phlow
 #  class: icon-googleplus
 #  title: "YouTube Google+"
 
-# - name: Facebook
-#   url: http://www.facebook.com/
-#   class: icon-facebook
-#   title: ""
+- name: Facebook
+  url: https://www.facebook.com/fishingkm?ref=tn_tnmn
+  class: icon-facebook
+  title: ""
 
 # - name: Soundcloud
 #   url: http://soundcloud.com/
