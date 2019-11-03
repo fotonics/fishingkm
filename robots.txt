@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://fotonics.github.io/fishingkm/sitemap.xml
+Sitemap: https://fotonics.github.io/fishingkm/sitemap.xml
