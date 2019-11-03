@@ -13,7 +13,7 @@ widget1:
   image: 
   text: 'Болонские поплавки. Болонская ловля на течении. Обзор
   Всем привет! Решил записать на тему болонская ловля видео и сделать обзор про болонские поплавки, какие есть в моем арсенале. Рыбалка на болонский поплавок очень добычливая, хотя для многих ловля на болонскую удочку это состояние души...'
-  video: '<a href="#" data-reveal-id="videoModal1"><img src="https://i.ytimg.com/vi/PUKzrA7Rmog/sddefault.jpg" width="302" height="182" alt=""/></a>'
+  video: '<a href="#" data-reveal-id="videoModal1"><img src="https://i.ytimg.com/vi/PUKzrA7Rmog/maxresdefault.jpg" width="302" height="182" alt=""/></a>'
 widget2:
   title: "Why use this theme?"
   url: 'http://phlow.github.io/feeling-responsive/info/'
