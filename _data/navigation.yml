@@ -1,8 +1,8 @@
-- title: Start
+- title: "Главная"
   url: "/"
   side: left
 
-- title: Getting Started
+- title: "Getting Started"
   url: "/getting-started/"
   side: left
 
@@ -66,10 +66,10 @@
   - title: "Blog Archive"
     url: "/blog/archive/"
 
-- title: "Search"
+- title: "Поиск"
   url: "/search/"
   side: right
 
-- title: "Contact"
+- title: "Контакт"
   url: "/contact/"
   side: right
