@@ -1,8 +1,8 @@
 ---
 #
-# Use the widgets beneath and the content will be
-# inserted automagically in the webpage. To make
-# this work, you have to use › layout: frontpage
+# Используйте виджеты ниже, и содержание будет
+# автоматически вставляется в веб-страницу
+# вы должны использовать › layout: frontpage
 #
 layout: frontpage
 header:
@@ -28,14 +28,14 @@ widget3:
   text: 'Всем привет! Когда в моей жизни была активна ловля на фидер где-то 2009-2013 гг. Были рыбалки, когда шел крупный лещ на фидер, также  фидер на реке, иногда снимал ...'
   video: '<a href="#" data-reveal-id="videoModa2"><img src="https://i.ytimg.com/vi/syt79wTv70Q/maxresdefault.jpg" width="302" height="182" alt="Ловля на штекер"/></a>'
 #
-# Use the call for action to show a button on the frontpage
+# # Используйте призыв к действию, чтобы показать кнопку на главной странице
 #
-# To make internal links, just use a permalink like this
-# url: /getting-started/
+# Чтобы сделать внутренние ссылки, просто используйте постоянную ссылку, как это
+url: /getting-started/
 #
-# To style the button in different colors, use no value
-# to use the main color or success, alert or secondary.
-# To change colors see sass/_01_settings_colors.scss
+# Чтобы придать кнопке другой цвет, не используйте значение
+# чтобы использовать основной цвет или успех, предупреждение или вторичный.
+# Чтобы изменить цвета см. sass/_01_settings_colors.scss
 #
 callforaction:
   url: https://tinyletter.com/fotonics
@@ -43,8 +43,8 @@ callforaction:
   style: alert
 permalink: /index.html
 #
-# This is a nasty hack to make the navigation highlight
-# this page as active in the topbar navigation
+# Это хак, чтобы сделать навигационную подсветку
+# эта страница активна в верхней панели навигации
 #
 homepage: true
 ---
