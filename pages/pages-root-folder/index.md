@@ -8,7 +8,7 @@ layout: frontpage
 header:
   image_fullwidth: header_foto.jpg
 widget1:
-  title: "TextText"
+  title: "Болонская ловля"
   url: 'https://youtu.be/PUKzrA7Rmog'
   image: 
   text: 'Болонские поплавки. Болонская ловля на течении. Обзор
