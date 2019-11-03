@@ -13,12 +13,12 @@ widget1:
   image: 'https://i.ytimg.com/vi/PUKzrA7Rmog/maxresdefault.jpg'
   text: 'Болонские поплавки. <br/>Болонская ловля на течении. Обзор<br/>
   Всем привет! Решил записать на тему болонская ловля видео и сделать обзор про болонские поплавки, какие есть в моем арсенале...'
-  video: '<a href="#" data-reveal-id="videoModal1"><img src="https://i.ytimg.com/vi/PUKzrA7Rmog/maxresdefault.jpg" width="302" height="182" alt=""/></a>'
+  video: '<a href="#" data-reveal-id="videoModal1"><img src="https://i.ytimg.com/vi/PUKzrA7Rmog/maxresdefault.jpg" width="302" height="182" alt="Болонская ловля"/></a>'
 widget2:
-  title: "Why use this theme?"
-  url: 'http://phlow.github.io/feeling-responsive/info/'
-  text: '<em>Feeling Responsive</em> is heavily customizable.<br/>1. Language-Support :)<br/>2. Optimized for speed and it&#39;s responsive.<br/>3. Built on <a href="http://foundation.zurb.com/">Foundation Framework</a>.<br/>4. Seven different Headers.<br/>5. Customizable navigation, footer,...'
-  video: '<a href="#" data-reveal-id="videoModal"><img src="http://phlow.github.io/feeling-responsive/images/start-video-feeling-responsive-302x182.jpg" width="302" height="182" alt=""/></a>'
+  title: "Штекерная ловля"
+  url: 'https://youtu.be/yZFnqmQq6dY'
+  text: 'Ловля на штекер. <br/>Увлекательная рыбалка 2019<br/> Всем привет! В этот раз штекерная ловля, расскажу и покажу мои оснастки. ловля на штекер увлекательная рыбалка. Всем рекомендую рыбалка именно на поплавок и именно ловля на штекерную удочку...'
+  video: '<a href="#" data-reveal-id="videoModal"><img src="https://i.ytimg.com/vi/yZFnqmQq6dY/maxresdefault.jpg" width="302" height="182" alt="Ловля на штекер"/></a>'
 widget3:
   title: "Download Theme"
   url: 'https://github.com/Phlow/feeling-responsive'
@@ -54,7 +54,7 @@ homepage: true
 </div>
 <div id="videoModal" class="reveal-modal large" data-reveal="">
   <div class="flex-video widescreen vimeo" style="display: block;">
-    <iframe width="1280" height="720" src="https://www.youtube.com/embed/aHLPi4VObmo" frameborder="0" allowfullscreen></iframe>
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/yZFnqmQq6dY" frameborder="0" allowfullscreen></iframe>
   </div>
   <a class="close-reveal-modal">&#215;</a>
 </div>
