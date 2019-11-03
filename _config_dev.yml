@@ -1,0 +1,26 @@
+#
+# Этот конфигурационный файл нужен только для разработки. Вместо изменения url-адреса
+# каждый раз, когда вы работаете локально над проектом, вы запускаете оба конфигурационных файла, перезаписывая их
+# первый с необходимыми переменными развития.
+#
+# Start development with › $ jekyll serve --config _config.yml,_config_dev.yml
+
+url: 		'https://fotonics.github.io/'
+baseurl: 	'/fishingkm'
+urlimg: 	'https://fotonics.github.io/fishingkm/images/'
+
+# See › https://github.com/jekyll/jekyll-gist#disabling-noscript-support
+gist:
+  noscript: true
+
+sass:
+  # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: :expanded
+  line_numbers: true
+  # trace_selectors: true
+  # debug_info: true
+  # FUTURE https://github.com/jekyll/jekyll-sass-converter/issues/12
+  sourcemap: true
+
+# Disable when not in production
+google_analytics_tracking_id: false
