@@ -6,7 +6,7 @@
 #
 layout: frontpage
 header:
-  image_fullwidth: header_unsplash_12.jpg
+  image_fullwidth: header_foto.jpg
 widget1:
   title: "Title text"
   url: 'https://youtu.be/aHLPi4VObmo'
