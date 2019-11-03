@@ -25,7 +25,7 @@ widget3:
   title: "Ловля фидером"
   url: 'https://youtu.be/syt79wTv70Q'
   image: 'https://i.ytimg.com/vi/syt79wTv70Q/maxresdefault.jpg'
-  text: 'Всем привет! Когда в моей жизни была активна ловля на фидер где-то 2009-2013 гг. Были рыбалки, когда шел крупный лещ на фидер, также  фидер на реке, иногда снимал фидерная ловля видео. Приятного просмотра на канале anglergold.tv '
+  text: 'Всем привет! Когда в моей жизни была активна ловля на фидер где-то 2009-2013 гг. Были рыбалки, когда шел крупный лещ на фидер, также  фидер на реке, иногда снимал ...'
   video: '<a href="#" data-reveal-id="videoModa2"><img src="https://i.ytimg.com/vi/syt79wTv70Q/maxresdefault.jpg" width="302" height="182" alt="Ловля на штекер"/></a>'
 #
 # Use the call for action to show a button on the frontpage
