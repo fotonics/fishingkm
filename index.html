@@ -1,266 +1,772 @@
-<!DOCTYPE html>
-<html>
-
+<!doctype html>
+<html class="no-js" lang="ru-RU">
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FishingKm</title>
 
-    <!-- Document Settings -->
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/styles_feeling_responsive.css">
 
-    <!-- Base Meta -->
-    <!-- dynamically fixing the title for tag/author pages -->
+  
+
+	<script src="http://localhost:4000/assets/js/modernizr.min.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+	<script>
+		WebFont.load({
+			google: {
+				families: [ 'Lato:400,700,400italic:latin', 'Volkhov::latin' ]
+			}
+		});
+	</script>
+
+	<noscript>
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic%7CVolkhov' rel='stylesheet' type='text/css'>
+	</noscript>
 
 
+	<!-- Search Engine Optimization -->
+	<meta name="description" content="»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.">
+	<meta name="google-site-verification" content="">
+	<meta name="msvalidate.01" content="" >
+	
+	<link rel="author" href="">
+	
+	
+	<link rel="canonical" href="http://localhost:4000/index.html">
 
-    <title>FishingKm</title>
-    <meta name="HandheldFriendly" content="True" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Styles'n'Scripts -->
-    <link rel="stylesheet" type="text/css" href="/fishingkm/assets/built/screen.css" />
-    <link rel="stylesheet" type="text/css" href="/fishingkm/assets/built/screen.edited.css" />
-    <link rel="stylesheet" type="text/css" href="/fishingkm/assets/built/syntax.css" />
-    <!-- highlight.js -->
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
-    <style>
-        .hljs {
-            background: none;
-        }
-    </style>
 
-    <!--[if IE]>
-        <style>
-            p, ol, ul{
-                width: 100%;
-            }
-            blockquote{
-                width: 100%;
-            }
-        </style>
-    <![endif]-->
+	<!-- Facebook Open Graph -->
+	<meta property="og:title" content="FishingKm">
+	<meta property="og:description" content="»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.">
+	<meta property="og:url" content="http://localhost:4000/index.html">
+	<meta property="og:locale" content="ru-RU">
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="FishingKm">
+	
+	<meta property="article:author" content="https://www.facebook.com/phlow.media">
 
-    <!-- This tag outputs SEO meta+structured data and other important settings -->
-    <meta name="description" content="Рыбалка на Канале имени Москвы" />
-    <link rel="shortcut icon" href="/fishingkm/assets/images/favicon.png" type="image/png" />
-    <link rel="canonical" href="/fishingkm/" />
-    <meta name="referrer" content="no-referrer-when-downgrade" />
 
-     <!--title below is coming from _includes/dynamic_title-->
-    <meta property="og:site_name" content="FishingKm" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="FishingKm" />
-    <meta property="og:description" content="Рыбалка на Канале имени Москвы" />
-    <meta property="og:url" content="/fishingkm/" />
-    <meta property="og:image" content="/fishingkm/assets/images/blog-cover.jpg" />
-    <meta property="article:publisher" content="https://www.facebook.com/ghost" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="FishingKm" />
-    <meta name="twitter:description" content="Рыбалка на Канале имени Москвы" />
-    <meta name="twitter:url" content="/fishingkm/" />
-    <meta name="twitter:image" content="/fishingkm/assets/images/blog-cover.jpg" />
-    <meta name="twitter:label1" content="Written by" />
-    <meta name="twitter:data1" content="FishingKm" />
-    <meta name="twitter:site" content="@tryghost" />
-    <meta name="twitter:creator" content="@tryghost" />
-    <meta property="og:image:width" content="2000" />
-    <meta property="og:image:height" content="666" />
+	
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="phlow">
+	<meta name="twitter:creator" content="phlow">
+	<meta name="twitter:title" content="FishingKm">
+	<meta name="twitter:description" content="»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.">
+	
+	
 
-    <script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "Website",
-    "publisher": {
-        "@type": "Organization",
-        "name": "FishingKm",
-        "logo": "/fishingkm/assets/images/blog-icon.png"
-    },
-    "url": "/fishingkm/",
-    "image": {
-        "@type": "ImageObject",
-        "url": "/fishingkm/assets/images/blog-cover.jpg",
-        "width": 2000,
-        "height": 666
-    },
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "/fishingkm/"
-    },
-    "description": "Рыбалка на Канале имени Москвы"
-}
-    </script>
+	<link type="text/plain" rel="author" href="http://localhost:4000/humans.txt">
 
-    <!-- <script type="text/javascript" src="https://demo.ghost.io/public/ghost-sdk.min.js?v=724281a32e"></script>
-    <script type="text/javascript">
-    ghost.init({
-    	clientId: "ghost-frontend",
-    	clientSecret: "f84a07a72b17"
-    });
-    </script> -->
+	
 
-    <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="FishingKm" href="/fishingkm/feed.xml" />
+	
 
+	<link rel="icon" sizes="32x32" href="http://localhost:4000/assets/img/favicon-32x32.png">
+
+	<link rel="icon" sizes="192x192" href="http://localhost:4000/assets/img/touch-icon-192x192.png">
+
+	<link rel="apple-touch-icon-precomposed" sizes="180x180" href="http://localhost:4000/assets/img/apple-touch-icon-180x180-precomposed.png">
+
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="http://localhost:4000/assets/img/apple-touch-icon-152x152-precomposed.png">
+
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/assets/img/apple-touch-icon-144x144-precomposed.png">
+
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="http://localhost:4000/assets/img/apple-touch-icon-120x120-precomposed.png">
+
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/assets/img/apple-touch-icon-114x114-precomposed.png">
+
+	
+	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="http://localhost:4000/assets/img/apple-touch-icon-76x76-precomposed.png">
+
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/assets/img/apple-touch-icon-72x72-precomposed.png">
+
+	<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/assets/img/apple-touch-icon-precomposed.png">	
+
+	<meta name="msapplication-TileImage" content="http://localhost:4000/assets/img/msapplication_tileimage.png">
+
+	<meta name="msapplication-TileColor" content="#fabb00">
+
+
+	
 
 </head>
+<body id="top-of-page" class="frontpage">
+	
+	
+<div id="navigation" class="sticky">
+  <nav class="top-bar" role="navigation" data-topbar>
+    <ul class="title-area">
+      <li class="name">
+      <h1 class="show-for-small-only"><a href="http://localhost:4000" class="icon-tree"> FishingKm</a></h1>
+    </li>
+       <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Nav</span></a></li>
+    </ul>
+    <section class="top-bar-section">
 
-<body class="home-template">
+      <ul class="right">
+        
 
-    <div class="site-wrapper">
-        <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
-        <!-- < default -->
-<!-- The tag above means: insert everything in this file
-into the {body} of the default.hbs template -->
+              
 
-<!-- The big featured header, it uses blog cover image as a BG if available -->
-<header class="site-header outer " style="background-image:  url(/fishingkm/assets/images/blog-cover.jpg) ">
-    <div class="inner">
-        <div class="site-header-content">
-            <h1 class="site-title">
-                
-                    <img class="site-logo" src="/fishingkm/assets/images/blog-icon.png" alt="FishingKm"/>
-                
-            </h1>
-            <h2 class="site-description">Рыбалка на Канале имени Москвы</h2>
-        </div>
-        <nav class="site-nav">
-    <div class="site-nav-left">
+          
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+            
+            
+              <li class="divider"></li>
+              <li><a  href="http://localhost:4000/search/">Search</a></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+            
+            
+              <li class="divider"></li>
+              <li><a  href="http://localhost:4000/contact/">Contact</a></li>
+
+            
+            
+          
         
         
-            <ul class="nav" role="menu">
-    <li class="nav-home" role="menuitem"><a href="/fishingkm/">Home</a></li>
-    <li class="nav-about" role="menuitem"><a href="/fishingkm/about/">About</a></li>
-    <li class="nav-getting-started" role="menuitem"><a href="/fishingkm/tag/getting-started/">Getting Started</a></li>
-    <li class="nav-try-ghost" role="menuitem"><a href="https://ghost.org">Try Ghost</a></li>
+      </ul>
+
+      <ul class="left">
+        
+
+              
+
+          
+          
+
+            
+            
+              <li class="active"><a  href="http://localhost:4000/">Start</a></li>
+              <li class="divider"></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+              <li><a  href="http://localhost:4000/getting-started/">Getting Started</a></li>
+              <li class="divider"></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a  href="http://localhost:4000/design/">Templates</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/design/grid/">Grid &amp; Colors</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/design/typography/typography/">Typography</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/design/page/">Page/Post</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/design/post-left-sidebar/">Post-Left-Sidebar</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/design/post-right-sidebar/">Post-Right-Sidebar</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/design/page-fullwidth/">Page Full-Width</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/blog/">Blog-Page</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/design/video/">Video</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/design/gallery/">Gallery</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/design/portfolio/">Portfolio</a></li>
+                    
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a  href="http://localhost:4000/headers/">Header Styles</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/design/header-full-width-image/">Header with Full-Width-Image</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/design/header-image-pattern/">Header with Image and Pattern</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/design/header-image-color/">Header with image and color</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/design/header-logo-only/">Header Only With Logo</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/design/header-with-text/">Header With Text</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/design/no-header/">No Header</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/design/no-header-but-image/">No Header but Image</a></li>
+                    
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a  href="http://localhost:4000/documentation/">Documentation</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/changelog/">Changelog</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/roadmap/">Roadmap</a></li>
+                    
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a  href="http://localhost:4000/blog/">Blog</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/blog/archive/">Blog Archive</a></li>
+                    
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+        
+      </ul>
+    </section>
+  </nav>
+</div><!-- /#navigation -->
+
+	
+
+	
+
+<div id="masthead">
+	<div class="row">
+		<div class="small-12 columns">
+			<a id="logo" href="http://localhost:4000/" title="FishingKm – Рыбалка на Канале имени Москвы">
+				<img src="http://localhost:4000/assets/img/logo.png" alt="FishingKm – Рыбалка на Канале имени Москвы">
+			</a>
+		</div><!-- /.small-12.columns -->
+	</div><!-- /.row -->
+</div><!-- /#masthead -->
+
+
+
+
+
+
+
+
+
+
+	<div id="header-home">
+    <div class="row">
+        <div class="small-12 columns">
+        </div><!-- /.medium-4.columns -->
+    </div><!-- /.row -->
+</div><!-- /#header-home -->
+
+
+
+<div class="row t60">
+	
+		
+
+
+
+
+
+
+<div class="medium-4 columns frontpage-widget">
+	
+		<a href="#" data-reveal-id="videoModal1"><img src="https://i.ytimg.com/vi/aHLPi4VObmo/maxresdefault.jpg"" width="302" height="182" alt=""/></a>
+	
+	<h2 class="font-size-h3 t10">Title text</h2>
+
+	<p>Every good portfolio website has a blog with fresh news, thoughts and develop&shy;ments of your activities. <em>Feeling Responsive</em> offers you a fully functional blog with an archive page to give readers a quick overview of all your posts.</p>
+	<p><a class="button tiny radius" href="https://youtu.be/aHLPi4VObmo">Открыть ›</a></p>
+</div>
+	
+
+	
+		
+
+
+
+
+
+
+<div class="medium-4 columns frontpage-widget">
+	
+		<a href="#" data-reveal-id="videoModal"><img src="http://phlow.github.io/feeling-responsive/images/start-video-feeling-responsive-302x182.jpg" width="302" height="182" alt=""/></a>
+	
+	<h2 class="font-size-h3 t10">Why use this theme?</h2>
+
+	<p><em>Feeling Responsive</em> is heavily customizable.<br/>1. Language-Support :)<br/>2. Optimized for speed and it&#39;s responsive.<br/>3. Built on <a href="http://foundation.zurb.com/">Foundation Framework</a>.<br/>4. Seven different Headers.<br/>5. Customizable navigation, footer,...</p>
+	<p><a class="button tiny radius" href="http://phlow.github.io/feeling-responsive/info/">Открыть ›</a></p>
+</div>
+	
+
+	
+		
+
+
+
+
+
+
+<div class="medium-4 columns frontpage-widget">
+	
+		<a href="https://github.com/Phlow/feeling-responsive">
+			<img src="http://localhost:4000/images/widget-github-303x182.jpg" alt="" />
+		</a>
+	
+	<h2 class="font-size-h3 t10">Download Theme</h2>
+
+	<p><em>Feeling Responsive</em> is free and licensed under a MIT License. Make it your own and start building. Grab the <a href="https://github.com/Phlow/feeling-responsive/tree/bare-bones-version">Bare-Bones-Version</a> for a fresh start or learn how to use it with the <a href="https://github.com/Phlow/feeling-responsive/tree/gh-pages">education-version</a> with sample posts and images. Then tell me via Twitter <a href="http://twitter.com/phlow">@phlow</a>.</p>
+	<p><a class="button tiny radius" href="https://github.com/Phlow/feeling-responsive">Открыть ›</a></p>
+</div>
+	
+</div><!-- /.row -->
+
+
+
+
+
+
+    <div class="row t60 b60">
+        <div class="small-12 text-center columns">
+            <a class="button large radius alert" href="https://tinyletter.com/fotonics" target="_blank" >Inform me about new updates and features ›</a>
+        </div><!-- /.small-12.columns -->
+    </div><!-- /.row -->
+
+
+
+
+
+
+
+    <div class="row t30 b20 homepage">
+        <div class="small-12 columns">
+            
+            
+            <p>
+                <a href="http://localhost:4000/site/nevs/" title="Привет мир"><img width="970" src="http://localhost:4000/images/gallery-example-1.jpg" alt=""></a>
+            </p>
+
+            
+            <p class="text-right caption">
+                <a href="http://unsplash.com">Unsplash.com</a>
+            </p>
+            
+            
+            
+        </div><!-- /.small-12.columns -->
+    </div><!-- /.row -->
+
+
+    <div class="row">
+        <div class="medium-6 columns">
+            
+            <p class="subheadline">Добро пожаловать</p>
+            <h2><a href="http://localhost:4000/site/nevs/">Привет мир</a></h2>
+            <p>
+                The default template for posts and pages aligns the page beautifully in the middle. But you can customize posts/pages easily via switches in the front matter to get a sidebar and/or to turn off meta-information at the end of the page like categories, tags and dates.
+                <a href="http://localhost:4000/site/nevs/" title="Read Привет мир"><strong>Подробнее&nbsp;›</strong></a>
+            </p>
+            
+        </div><!-- /.medium-5.columns -->
+
+
+        <div class="medium-6 columns">
+            <p><strong>Публикации</strong></p>
+            
+
+
+
+
+
+<ul class="side-nav">
+
+  
+
+    
+      <li><a href="http://localhost:4000/design/mediaelement_js/">Video & Music Player &middot; <strong>Play Audio & Video with media&shy;element.js</strong></a></li>
+    
+      <li><a href="http://localhost:4000/design/typography/typography/">Reading Experience &middot; <strong>Wonderful Typography</strong></a></li>
+    
+      <li><a href="http://localhost:4000/design/comments/">Discussion &middot; <strong>Now with Comments!</strong></a></li>
+    
+      <li class="text-right"><a href="http://localhost:4000/blog/archive/"><strong>Открыть ›</strong></a></li>
+
+
+  
 </ul>
 
-        
-    </div>
-    <div class="site-nav-right">
-        <div class="social-links">
+
+        </div><!-- /.medium-7.columns -->
+    </div><!-- /.row -->
+
+
+
+
+
+<div class="row">
+    <div id="videoModal1" class="reveal-modal large" data-reveal="">
+  <div class="flex-video widescreen vimeo" style="display: block;">
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/aHLPi4VObmo" frameborder="0" allowfullscreen=""></iframe>
+  </div>
+  <a class="close-reveal-modal">&#215;</a>
+</div>
+<div id="videoModal" class="reveal-modal large" data-reveal="">
+  <div class="flex-video widescreen vimeo" style="display: block;">
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/aHLPi4VObmo" frameborder="0" allowfullscreen=""></iframe>
+  </div>
+  <a class="close-reveal-modal">&#215;</a>
+</div>
+
+</div><!-- /.row -->
+
+
+	
+	    <div id="up-to-top" class="row">
+      <div class="small-12 columns" style="text-align: right;">
+        <a class="iconfont" href="#top-of-page">&#xf108;</a>
+      </div><!-- /.small-12.columns -->
+    </div><!-- /.row -->
+
+
+    <footer id="footer-content" class="bg-grau">
+      <div id="footer">
+        <div class="row">
+          <div class="medium-6 large-5 columns">
+            <h5 class="shadow-black">О сайте</h5>
+
+            <p class="shadow-black">
+              »Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.
+              <a href="http://localhost:4000/info/">Открыть ›</a>
+            </p>
+          </div><!-- /.large-6.columns -->
+
+
+          <div class="small-6 medium-3 large-3 large-offset-1 columns">
             
-                <a class="social-link social-link-fb" href="https://facebook.com/ghost" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
-</a>
+              
+                <h5 class="shadow-black">Services</h5>
+              
             
+              
             
-                <a class="social-link social-link-tw" href="https://twitter.com/tryghost" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
-</a>
+              
             
-        </div>
-        
-            <a class="subscribe-button" href="#subscribe">Subscribe</a>
-        
-    </div>
-</nav>
-
-    </div>
-</header>
-
-<!-- The main content area -->
-<main id="site-main" class="site-main outer" role="main">
-    <div class="inner">
-
-        <div class="post-feed">
-            <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
+              
+            
+              
             
 
+              <ul class="no-bullet shadow-black">
+              
+                
+                  <li >
+                    <a href="http://localhost:4000"  title=""></a>
+                  </li>
+              
+                
+                  <li >
+                    <a href="http://localhost:4000/contact/"  title="Contact">Contact</a>
+                  </li>
+              
+                
+                  <li >
+                    <a href="http://localhost:4000/feed.xml"  title="Subscribe to RSS Feed">RSS</a>
+                  </li>
+              
+                
+                  <li >
+                    <a href="http://localhost:4000/atom.xml"  title="Subscribe to Atom Feed">Atom</a>
+                  </li>
+              
+                
+                  <li >
+                    <a href="http://localhost:4000/sitemap.xml"  title="Sitemap for Google Webmaster Tools">sitemap.xml</a>
+                  </li>
+              
+              </ul>
+          </div><!-- /.large-4.columns -->
 
 
-        </div>
-
-    </div>
-</main>
-
-
-        <!-- Previous/next page links - displayed on every page -->
-        
-
-        <!-- The footer at the very bottom of the screen -->
-        <footer class="site-footer outer">
-            <div class="site-footer-content inner">
-                <section class="copyright"><a href="/fishingkm/">FishingKm</a> &copy; 2019</section>
-                <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> &
-                    <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> using
-                    <a href="https://github.com/jekyller/jasper2" target="_blank" rel="noopener">Jasper2</a></section>
-                <nav class="site-footer-nav">
-                    <a href="/fishingkm/">Latest Posts</a> <a href="https://facebook.com/ghost" target="_blank" rel="noopener">Facebook</a> <a href="https://twitter.com/tryghost"
-                        target="_blank" rel="noopener">Twitter</a>
-                    <a href="https://ghost.org" target="_blank" rel="noopener">Ghost</a>
-                </nav>
-            </div>
-        </footer>
-
-    </div>
-
-    <!-- The big email subscribe modal content -->
-    
-    <div id="subscribe" class="subscribe-overlay">
-        <a class="subscribe-overlay-close" href="#"></a>
-        <div class="subscribe-overlay-content">
+          <div class="small-6 medium-3 large-3 columns">
             
-            <img class="subscribe-overlay-logo" src="/fishingkm/assets/images/blog-icon.png" alt="FishingKm" /> 
-            <h1 class="subscribe-overlay-title">Subscribe to FishingKm</h1>
-            <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts delivered straight to your inbox</p>
-            <form method="post" action="/subscribe/" class="">
-    <input class="confirm" type="hidden" name="confirm"  /><input class="location" type="hidden" name="location"  /><input class="referrer" type="hidden" name="referrer"  />
+              
+                <h5 class="shadow-black">Dankeschön</h5>
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
 
-    <div class="form-group">
-        <input class="subscribe-email" type="email" name="email"  placeholder="youremail@example.com" />
-    </div>
-    <button class="" type="submit" disabled><span>Subscribe</span></button>
-    <script type="text/javascript">(function(g,h,o,s,t){h[o]('.location')[s]=h[o]('.location')[s] || g.location.href;h[o]('.referrer')[s]=h[o]('.referrer')[s] || h.referrer;})(window,document,'querySelector','value');</script>
-</form>
+            <ul class="no-bullet shadow-black">
+            
+              
+                <li >
+                  <a href="http://localhost:4000"  title=""></a>
+                </li>
+            
+              
+                <li class="network-entypo" >
+                  <a href="http://entypo.com/" target="_blank"  title="Icons by Daniel Bruce">Icons by Daniel Bruce</a>
+                </li>
+            
+              
+                <li class="services-newsletter" >
+                  <a href="http://foundation.zurb.com/" target="_blank"  title="Built on Foundation">Built on Foundation</a>
+                </li>
+            
+              
+                <li class="rss-link" >
+                  <a href="http://unsplash.com/" target="_blank"  title="Images by Unsplash">Images by Unsplash</a>
+                </li>
+            
+              
+                <li class="sitemap-link" >
+                  <a href="http://srobbin.com/jquery-plugins/backstretch/" target="_blank"  title="Using Backstretch by Scott Robbin">Using Backstretch by Scott Robbin</a>
+                </li>
+            
+            </ul>
+          </div><!-- /.large-3.columns -->
+        </div><!-- /.row -->
 
-        </div>
-    </div>
-    
-
-    <!-- highlight.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            $('pre code').each(function(i, block) {
-                hljs.highlightBlock(block);
-            });
-        });
-    </script>
-
-    <!-- jQuery + Fitvids, which makes all video embeds responsive -->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
-    </script>
-    <script type="text/javascript" src="/fishingkm/assets/js/jquery.fitvids.js"></script>
-    <script type="text/javascript" src="https://demo.ghost.io/assets/js/jquery.fitvids.js?v=724281a32e"></script>
-
-
-    <!-- Paginator increased to "infinit" in _config.yml -->
-    <!-- if paginator.posts  -->
-    <script>
-        var maxPages = parseInt('');
-    </script>
-    <script src="/fishingkm/assets/js/infinitescroll.js"></script>
-    <!-- /endif -->
-
-    
-
-
-    <!-- Add Google Analytics  -->
-    <!-- Google Analytics Tracking code -->
- <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-69281367-1', 'auto');
-  ga('send', 'pageview');
-
- </script>
+      </div><!-- /#footer -->
 
 
-    <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
-    
+      <div id="subfooter">
+        <nav class="row">
+          <section id="subfooter-left" class="small-12 medium-6 columns credits">
+            <p>Created with &hearts; by <a href="http://phlow.de/">Phlow</a> with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.</p>
+          </section>
 
-    <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
-    <!-- ghost_foot -->
+          <section id="subfooter-right" class="small-12 medium-6 columns">
+            <ul class="inline-list social-icons">
+            
+              <li><a href="http://github.com/phlow" target="_blank" class="icon-github" title="Code und mehr..."></a></li>
+            
+              <li><a href="http://www.youtube.com/PhlowMedia" target="_blank" class="icon-youtube" title="Videos, Video-Anleitungen und Filme von Phlow auf YouTube"></a></li>
+            
+              <li><a href="http://twitter.com/phlow" target="_blank" class="icon-twitter" title="Immer das Neuste von Phlow gibt es auf Twitter"></a></li>
+            
+              <li><a href="http://www.mixcloud.com/phlow/" target="_blank" class="icon-cloud" title="Mixe, was sonst?"></a></li>
+            
+              <li><a href="https://plus.google.com/u/0/+Phlow" target="_blank" class="icon-googleplus" title="YouTube Google+"></a></li>
+            
+            </ul>
+          </section>
+        </nav>
+      </div><!-- /#subfooter -->
+    </footer>
+
+	
+
+	
+
+
+<script src="http://localhost:4000/assets/js/javascript.min.js"></script>
+
+
+
+<script>
+    $("#masthead").backstretch("http://localhost:4000/images/header_unsplash_12.jpg", {fade: 700});
+    $("#masthead-with-text").backstretch("http://localhost:4000/images/header_unsplash_12.jpg", {fade: 700});
+</script>
+
+
+
+
+
+
+
+
+
+
+
 
 </body>
-
 </html>
+

@@ -1,9 +1,14 @@
-<!doctype html>
-<html class="no-js" lang="ru-RU">
-<head>
-	<meta charset="utf-8">
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:atom="http://www.w3.org/2005/Atom">
+<xsl:output method="html" encoding="utf-8" />
+<xsl:template match="/atom:feed">
+	<xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html &gt;</xsl:text>
+	<html>
+	<head>
+		<xsl:text disable-output-escaping="yes"><![CDATA[
+		<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Oops! Nothing here...</title>
+	<title>Atom Feed (Styled)</title>
 
     <link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/styles_feeling_responsive.css">
 
@@ -26,20 +31,20 @@
 
 
 	<!-- Search Engine Optimization -->
-	<meta name="description" content="Maybe the webpage was moved or deleted; or did you maybe mistype the link?">
+	<meta name="description" content="»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.">
 	<meta name="google-site-verification" content="">
 	<meta name="msvalidate.01" content="" >
 	
 	<link rel="author" href="">
 	
 	
-	<link rel="canonical" href="http://localhost:4000/404.html">
+	<link rel="canonical" href="http://localhost:4000/assets/xslt/atom.xslt">
 
 
 	<!-- Facebook Open Graph -->
-	<meta property="og:title" content="Oops! Nothing here...">
-	<meta property="og:description" content="Maybe the webpage was moved or deleted; or did you maybe mistype the link?">
-	<meta property="og:url" content="http://localhost:4000/404.html">
+	<meta property="og:title" content="Atom Feed (Styled)">
+	<meta property="og:description" content="»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.">
+	<meta property="og:url" content="http://localhost:4000/assets/xslt/atom.xslt">
 	<meta property="og:locale" content="ru-RU">
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="FishingKm">
@@ -52,8 +57,8 @@
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:site" content="phlow">
 	<meta name="twitter:creator" content="phlow">
-	<meta name="twitter:title" content="Oops! Nothing here...">
-	<meta name="twitter:description" content="Maybe the webpage was moved or deleted; or did you maybe mistype the link?">
+	<meta name="twitter:title" content="Atom Feed (Styled)">
+	<meta name="twitter:description" content="»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.">
 	
 	
 
@@ -91,10 +96,11 @@
 
 	
 
-</head>
-<body id="top-of-page" class="post">
-	
-	
+		]]></xsl:text>
+	</head>
+	<body id="top-of-page">
+		<xsl:text disable-output-escaping="yes"><![CDATA[
+		
 <div id="navigation" class="sticky">
   <nav class="top-bar" role="navigation" data-topbar>
     <ul class="title-area">
@@ -409,9 +415,7 @@
   </nav>
 </div><!-- /#navigation -->
 
-	
-
-	
+		
 
 <div id="masthead-no-image-header">
 	<div class="row">
@@ -430,69 +434,57 @@
 
 
 
-	<div class="row t30">
-	<div class="medium-8 columns medium-offset-2 end">
-		<article itemscope itemtype="http://schema.org/Article">
-			<header>
-				
-
-				<div itemprop="name">
-					<p class="subheadline">HTTP 404</p>
-					<h1>Oops! Nothing here...</h1>
-				</div>
-			</header>
+		
 
 
-			
-			<p class="teaser" itemprop="description">
-				Maybe the webpage was moved or deleted; or did you maybe mistype the link?
-			</p>
-			
-
-			<div itemprop="articleSection">
-			<h2 id="no-problem">No problem!</h2>
-
-<p>Try…<br />
-…to start over on the <a href="/">home page</a>;<br />
-…to <strong>search</strong> below;<br />
-if you can’t find it, <a href="/contact/">ask about it</a>.</p>
-
-<h3 id="search">Search</h3>
-
-<script language="Javascript" type="text/javascript">
-	function google_search() {
-		var query = document.getElementById("google-search").value;
-		window.open("https://www.google.com/search?q=" + query + "+site:" + "http%3A%2F%2Flocalhost%3A4000%2F");
-	}
-</script>
-
-<form id="search" onsubmit="google_search(); return false;">
-	<input type="text" id="google-search" placeholder="Enter search term and hit enter" />
-</form>
-<noscript>
-	Search <a href="https://www.google.com/search?q=site:http%3A%2F%2Flocalhost%3A4000%2F" target="_blank">Google</a> for:
-	<pre><code>search-term site:http://localhost:4000/</code></pre>
-</noscript>
+<div class="alert-box warning text-center"><p>This <a href="https://en.wikipedia.org/wiki/RSS" target="_blank">Atom feed</a> is meant to be used by <a href="https://en.wikipedia.org/wiki/Template:Aggregators" target="_blank">RSS reader applications and websites</a>.</p>
+</div>
 
 
-			</div>
 
-			
+		]]></xsl:text>
+		<header class="t30 row">
+	<p class="subheadline"><xsl:value-of select="atom:subtitle" disable-output-escaping="yes" /></p>
+	<h1>
+		<xsl:element name="a">
+			<xsl:attribute name="href">
+				<xsl:value-of select="atom:id" />
+			</xsl:attribute>
+			<xsl:value-of select="atom:title" />
+		</xsl:element>
+	</h1>
+</header>
+<ul class="accordion row" data-accordion="">
+	<xsl:for-each select="atom:entry">
+		<li class="accordion-navigation">
+			<xsl:variable name="slug-id">
+				<xsl:call-template name="slugify">
+					<xsl:with-param name="text" select="atom:id" />
+				</xsl:call-template>
+			</xsl:variable>
+			<xsl:element name="a">
+				<xsl:attribute name="href"><xsl:value-of select="concat('#', $slug-id)"/></xsl:attribute>
+				<xsl:value-of select="atom:title"/>
+				<br/>
+				<small><xsl:value-of select="atom:updated"/></small>
+			</xsl:element>
+			<xsl:element name="div">
+				<xsl:attribute name="id"><xsl:value-of select="$slug-id"/></xsl:attribute>
+				<xsl:attribute name="class">content</xsl:attribute>
+				<h1>
+					<xsl:element name="a">
+						<xsl:attribute name="href"><xsl:value-of select="atom:id"/></xsl:attribute>
+						<xsl:value-of select="atom:title"/>
+					</xsl:element>
+				</h1>
+				<xsl:value-of select="atom:content" disable-output-escaping="yes" />
+			</xsl:element>
+		</li>
+	</xsl:for-each>
+</ul>
 
-			
-		</article>
-	</div><!-- /.medium-8.columns -->
-
-
-	
-
-
-	
-</div><!-- /.row -->
-
-
-	
-	    <div id="up-to-top" class="row">
+		<xsl:text disable-output-escaping="yes"><![CDATA[
+		    <div id="up-to-top" class="row">
       <div class="small-12 columns" style="text-align: right;">
         <a class="iconfont" href="#top-of-page">&#xf108;</a>
       </div><!-- /.small-12.columns -->
@@ -632,9 +624,7 @@ if you can’t find it, <a href="/contact/">ask about it</a>.</p>
       </div><!-- /#subfooter -->
     </footer>
 
-	
-
-	
+		
 
 
 <script src="http://localhost:4000/assets/js/javascript.min.js"></script>
@@ -652,6 +642,18 @@ if you can’t find it, <a href="/contact/">ask about it</a>.</p>
 
 
 
-</body>
-</html>
-
+		]]></xsl:text>
+	</body>
+	</html>
+</xsl:template>
+<xsl:template name="slugify">
+	<xsl:param name="text" select="''" />
+	<xsl:variable name="dodgyChars" select="' ,.#_-!?*:;=+|&amp;/\\'" />
+	<xsl:variable name="replacementChar" select="'-----------------'" />
+	<xsl:variable name="lowercase" select="'abcdefghijklmnopqrstuvwxyz'" />
+	<xsl:variable name="uppercase" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'" />
+	<xsl:variable name="lowercased"><xsl:value-of select="translate( $text, $uppercase, $lowercase )" /></xsl:variable>
+	<xsl:variable name="escaped"><xsl:value-of select="translate( $lowercased, $dodgyChars, $replacementChar )" /></xsl:variable>
+	<xsl:value-of select="$escaped" />
+</xsl:template>
+</xsl:stylesheet>
