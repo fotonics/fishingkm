@@ -1,6 +1,4 @@
 # These are supported funding model platforms
 
-github: fotonics
 patreon: fotonics
-tidelift: npm/fotonics
-custom: ["https://www.paypal.me/fotonics77", fotonics.github.io/fishingkm]
+custom: ["https://www.paypal.me/fotonics77"]
