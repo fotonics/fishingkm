@@ -40,7 +40,7 @@ url: /getting-started/
 #  url: https://tinyletter.com/fotonics
 #  text: Подпишитесь на нашу рассылку ›
 #  style: alert
-# permalink: /index.html
+# permalink: #/index.html
 #
 # Это хак, чтобы сделать навигационную подсветку
 # эта страница активна в верхней панели навигации
