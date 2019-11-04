@@ -11,24 +11,23 @@ widget1:
   title: "Болонская ловля"
   url: 'https://youtu.be/PUKzrA7Rmog'
   image: 'https://i.ytimg.com/vi/PUKzrA7Rmog/maxresdefault.jpg'
-  text: 'Болонские поплавки. <br/>Болонская ловля на течении. Обзор<br/>
-  Всем привет! Решил записать на тему болонская ловля видео и сделать обзор про болонские поплавки, какие есть в моем арсенале...'
+  text: ''
   video: '<a href="#" data-reveal-id="videoModal1"><img src="https://i.ytimg.com/vi/PUKzrA7Rmog/maxresdefault.jpg" width="302" height="182" alt="Болонская ловля"/></a>'
 widget2:
   title: "Штекерная ловля"
   url: 'https://youtu.be/yZFnqmQq6dY'
   video: '<a href="#" data-reveal-id="videoModal"><img src="https://i.ytimg.com/vi/yZFnqmQq6dY/maxresdefault.jpg" width="302" height="182" alt="Ловля на штекер"/></a>'
   image: 'https://i.ytimg.com/vi/yZFnqmQq6dY/maxresdefault.jpg'
-  text: 'Ловля на штекер. <br/>Увлекательная рыбалка 2019<br/> Всем привет! В этот раз штекерная ловля, расскажу и покажу мои оснастки. ловля на штекер увлекательная рыбалка...'
+  text: ''
   video: '<a href="#" data-reveal-id="videoModal"><img src="https://i.ytimg.com/vi/yZFnqmQq6dY/maxresdefault.jpg" width="302" height="182" alt="Ловля на штекер"/></a>'
 widget3:
   title: "Ловля фидером"
   url: 'https://youtu.be/syt79wTv70Q'
   image: 'https://i.ytimg.com/vi/syt79wTv70Q/maxresdefault.jpg'
-  text: 'Всем привет! Когда в моей жизни была активна ловля на фидер где-то 2009-2013 гг. Были рыбалки, когда шел крупный лещ на фидер, также  фидер на реке, иногда снимал ...'
+  text: '.'
   video: '<a href="#" data-reveal-id="videoModa2"><img src="https://i.ytimg.com/vi/syt79wTv70Q/maxresdefault.jpg" width="302" height="182" alt="Ловля на штекер"/></a>'
 #
-# # Используйте призыв к действию, чтобы показать кнопку на главной странице
+# Используйте призыв к действию, чтобы показать кнопку на главной странице
 #
 # Чтобы сделать внутренние ссылки, просто используйте постоянную ссылку, как это
 url: /getting-started/
