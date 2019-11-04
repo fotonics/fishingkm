@@ -7,9 +7,9 @@ permalink: "/info/"
 header:
     image_fullwidth: "header_drop.jpg"
 ---
-...and learn at the same time.
-
-*Feeling Responsive* is my first theme which I let into the world. It's built on work and knowledge of others. While I am still designing it, you read about whats behind this theme in the – *hopefully* – near future.
+Как говорится: Каждый кулик своё болото хвалит!
+Кто то рыбачит на "Можайке", кто то на Истре. 
+Рыбалка на Канале имени Москвы и прилегающих к нему водохранилищах - вот тема этого сайта.
 
 
 ## Features
@@ -59,3 +59,13 @@ Yours sincerelly, [Moritz »mo.« Sauer][7]
  [18]: #
  [19]: #
  [20]: #
+
+
+
+
+
+![Новосельцево](/slide-01.jpg)
+
+<https://www.facebook.com/fishingkm/videos/1729814327056554/>
+
+В данный момент идут заключительные работы по оптимизации страниц сайта и наполнению контентом. По всем вопросам и предложениям пишите на[fotonics@yandex.ru](mailto:fotonics@yandex.ru) либо в комментариях ниже.
