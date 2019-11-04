@@ -36,7 +36,11 @@ url: /getting-started/
 # чтобы использовать основной цвет или успех, предупреждение или вторичный.
 # Чтобы изменить цвета см. sass/_01_settings_colors.scss
 #
-
+callforaction:
+  url: https://tinyletter.com/fotonics
+  text: Подпишитесь на нашу рассылку ›
+  style: alert
+permalink: /index.html
 #
 # Это хак, чтобы сделать навигационную подсветку
 # эта страница активна в верхней панели навигации
