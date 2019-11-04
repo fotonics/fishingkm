@@ -24,7 +24,7 @@ widget3:
   title: "Ловля фидером"
   url: 'https://youtu.be/syt79wTv70Q'
   image: 'https://i.ytimg.com/vi/syt79wTv70Q/maxresdefault.jpg'
-  text: '.'
+  text: ''
   video: '<a href="#" data-reveal-id="videoModa2"><img src="https://i.ytimg.com/vi/syt79wTv70Q/maxresdefault.jpg" width="302" height="182" alt="Ловля на штекер"/></a>'
 #
 # Используйте призыв к действию, чтобы показать кнопку на главной странице
@@ -47,6 +47,8 @@ permalink: /index.html
 #
 homepage: true
 ---
+
+{% include _adsense.html %}
 
 <div id="videoModal1" class="reveal-modal large" data-reveal="">
   <div class="flex-video widescreen vimeo" style="display: block;">
