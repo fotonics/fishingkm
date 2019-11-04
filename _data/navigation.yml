@@ -59,11 +59,11 @@
   - title: "Roadmap"
     url: "/roadmap/"
 
-- title: Blog
+- title: Блог
   url: "/blog/"
   side: left
   dropdown:
-  - title: "Blog Archive"
+  - title: "Архив публикаций"
     url: "/blog/archive/"
 
 - title: "Поиск"
