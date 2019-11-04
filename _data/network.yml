@@ -1,6 +1,6 @@
-- menu_name: "Dankeschön"
+- menu_name: "Спасибо этим ресурсам"
 
-- name: "Icons by Daniel Bruce"
+- name: "Иконки от Daniel Bruce"
   url: "http://entypo.com/"
   class: "network-entypo"
   title: "Icons by Daniel Bruce"
@@ -10,7 +10,7 @@
   class: "services-newsletter"
   title: "Built on Foundation"
 
-- name: "Images by Unsplash"
+- name: "Картинки Unsplash"
   url: "http://unsplash.com/"
   class: "rss-link"
   title: "Images by Unsplash"
