@@ -12,6 +12,12 @@ header:
 Рыбалка на Канале имени Москвы и прилегающих к нему водохранилищах - вот тема этого сайта.
 
 
+https://www.facebook.com/fishingkm/videos/1729814327056554/
+
+<https://www.facebook.com/fishingkm/videos/1729814327056554/>
+
+В данный момент идут заключительные работы по оптимизации страниц сайта и наполнению контентом. По всем вопросам и предложениям пишите на[fotonics@yandex.ru](mailto:fotonics@yandex.ru) либо в комментариях ниже.
+
 ## Features
 
 * [Responsive Gallery][8], [Videos][9], [Grid][10], [Typography][11],...
@@ -64,8 +70,3 @@ Yours sincerelly, [Moritz »mo.« Sauer][7]
 
 
 
-![Новосельцево](/slide-01.jpg)
-
-<https://www.facebook.com/fishingkm/videos/1729814327056554/>
-
-В данный момент идут заключительные работы по оптимизации страниц сайта и наполнению контентом. По всем вопросам и предложениям пишите на[fotonics@yandex.ru](mailto:fotonics@yandex.ru) либо в комментариях ниже.
