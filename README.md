@@ -1,4 +1,3 @@
 # These are supported funding model platforms
 
-patreon: fotonics
-custom: ["https://www.paypal.me/fotonics77"]
+custom: ["https://paypal.me/fotonics77?locale.x=ru_RU"]
