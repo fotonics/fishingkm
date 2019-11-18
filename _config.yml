@@ -148,74 +148,74 @@ defaults:
 # These settings are specific to Hydejack.
 
 hydejack:
-  # Configure the order of complementary content on blog posts
+  # Настройка порядка размещения дополнительного контента в сообщениях блога
   post_addons:         [about, newsletter, related, random]
 
-  # Configure the order of complementary content on project pages
+  # Настройка порядка размещения дополнительного контента на страницах проекта
   project_addons:      [about, newsletter, other]
 
-  # If you do not use Google Fonts, set to `true`.
-  no_google_fonts:     true
+  # Если вы не используете шрифты Google, установите значение true.
+  no_google_fonts:     false
 
-  # Set to `true` if you don't want to show an icon indicating external links
-  no_mark_external:    true
+ # Установите значение true, если вы не хотите показывать значок с указанием внешних ссылок
+  no_mark_external:    false
 
-  # Set to `true` if third party plugins fail to work with dynamically loaded pages
+  # Установите значение true, если сторонние плагины не работают с динамически загруженными страницами
   no_push_state:       false
 
-  # Set to `true` if you want to disable the drawer
+  # Установите значение ' true`, если вы хотите отключить ящик (drawer)
   no_drawer:           false
 
-  # Set to `true` to prevent usage of `hy-img` (lazy-loading images).
+ # Установите значение 'true`, чтобы предотвратить использование` hy-img' (ленивая загрузка изображений).
   no_img:              false
 
-  # Set to `true` if you do not want parts of the css inlined in <head/>
-  # This will increase site build speed dramatically!
+  # Установите значение 'true', если вы не хотите, чтобы части css были встроены в <head/>
+  # Это значительно увеличит скорость сборки сайта!
   no_inline_css:       false
 
-  # Set to `true` if you don't intend on changing the accent color on a per-page basis.
-  # This will increase site build speed!
+  # Установите значение true, если вы не собираетесь изменять цвет акцента на каждой странице.
+  # Это увеличит скорость сборки сайта!
   no_page_style:       false
 
-  # Code blocks and tables "break" the layout by spanning the full available width.
-  # Set this to true if you want them to be the same width as other content.
-  no_break_layout:     false
+  # Блоки кода и таблицы "ломают" макет, охватывая всю доступную ширину.
+  # Установите это значение в true, если вы хотите, чтобы они были такой же ширины, как и другие материалы.
+  no_break_layout:     true
 
-  # Set to `true` if you do not want to expose your resume and projects
-  # in machine-readable formats.
-  no_structured_data:  false
+  # Установите значение true, если вы не хотите выставлять свое резюме и проекты
+  # в машиночитаемых форматах.
+  no_structured_data:  true
 
-  # You can set this to `true` if you don't want to set the `theme-color` meta tag,
-  # This only affects the meta tag, not the color specified in the app manifest.
-  no_theme_color:      false
+  # Вы можете установить это значение в 'true', если вы не хотите устанавливать мета-тег `theme-color,
+  # Это влияет только на метатег, а не на цвет, указанный в манифесте приложения.
+  no_theme_color:      true
 
-  # Set to `true` when building with the `--lsi` option
-  use_lsi:             true
+  # Установите значение 'true' при построении с параметром ' --lsi` 
+  use_lsi:             false
 
-  # When using Google Analytics, set to `true` to display a cookie notice banner.
-  # When enabled, no user-related data will be stored until the user gives consent.
-  cookies_banner:      false
+  # При использовании Google Analytics установите значение true для отображения баннера уведомления о cookie.
+  # Если этот параметр включен, данные, связанные с пользователем, не будут храниться до тех пор, пока пользователь не даст свое согласие.
+  cookies_banner:      true
 
-  # Set to `true` if you would like to add a "Powered by Hydejack" link in the footer.
-  advertise:           false
+  # Установите значение "true", если вы хотите добавить ссылку" Powered by Hyde jack " в нижнем колонтитуле.
+  advertise:           true
 
   # Note that dark mode only works in the PRO version of Hydejack.
   dark_mode:
-    # Set to `true` to always use the dark theme.
-    always:            true
+    # Установите значение "true", чтобы всегда использовать темную тему.
+    always:            false
 
-    # Set to `true` to use the dark theme based on visitors' local time.
+    # Установите значение "true", чтобы использовать темную тему, основанную на местном времени посетителей.
     dynamic:           true
     sunrise:           6
     sunset:            18
 
-    # Set to `true` to allow visitors to switch between light and dark mode.
+    # Установите значение true, чтобы посетители могли переключаться между светлым и темным режимами.
     icon:              true
 
   # ⚡️ DANGER ZONE ⚡️
   # ----------------
   # This is an _experimental_ feature.
-  # Only use if you know what Service Workers are and how they can impact your site!
+  # Используйте, только если вы знаете, что такое сервисные работники и как они могут повлиять на ваш сайт!
   offline:
     enabled:           true
     cache_version:     1
