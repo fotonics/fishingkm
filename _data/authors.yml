@@ -3,23 +3,21 @@
 # Change `author1` to your shortname.
 author1:
   name:              <firstname> <lastname>
-  email:             <mail@domain.tld>
+  email:             fotonics@yandex.ru
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Описание будет добавлено
 
     Open `_data/authors.yml` to edit this text.
 
-    [Download Free][kit]
-    -- or --
-    [Buy PRO][buy]
+#    [Download Free][kit]
+#    -- or --
+#    [Buy PRO][buy]
 
-    [kit]: https://github.com/qwtel/hydejack-starter-kit/archive/v8.1.1.zip
-    [buy]: https://app.simplegoods.co/i/NATYVLYT
+#    [kit]: https://github.com/qwtel/hydejack-starter-kit/archive/v8.1.1.zip
+#    [buy]: https://app.simplegoods.co/i/NATYVLYT
 
   # This photo will be used in the about section
   picture:
@@ -34,12 +32,12 @@ author1:
   # Rearrange to change the order in which they appear
   social:
     twitter:         <username>
-    github:          <username>
-    # email:           <mail@domain.tld>
+    github:          fotonics
+    email:           fotonics@yandex.ru
     # rss:             https://<url>/feed.xml
-    # facebook:        <username>
+    facebook:        fishingkm
     # google:          <number>
-    # vk:              <username>
+    vk:              fotonics
     # youtube:         <string_string_string>
     # vimeo:           <username>
     # vine:            <username>
