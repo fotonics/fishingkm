@@ -12,11 +12,11 @@ url: https://fotonics.github.io/fishingkm
 # Use the empty string '' otherwise.
 # For GitHub project sites, this is usually the name of the project,
 # e.g. `/hydejack`.
-baseurl: /fishingkm
+baseurl: ''
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang:  ru
+lang:  ru-RU
 
 # The title of your blog. Used in the sidebar and the browser tab.
 title:  FishingKm
