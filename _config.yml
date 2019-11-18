@@ -4,7 +4,7 @@
 # IMPORTANT: Set the URL of your site.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-url:                   https://domain.tld
+url: https://fotonics.github.io/fishingkm
 
 # IMPORTANT: Set The "base URL" of your site.
 # When your site sits in a subdirectory, set to /<name of directory>
@@ -12,24 +12,24 @@ url:                   https://domain.tld
 # Use the empty string '' otherwise.
 # For GitHub project sites, this is usually the name of the project,
 # e.g. `/hydejack`.
-baseurl:               ''
+baseurl: /fishingkm
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang:                  en
+lang:  ru
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Hydejack
+title:  FishingKm
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  "Best Jekyll Theme by a Mile".
+  "Рыбалка на Канале имени Москвы".
   **Hydejack** is your presence on the web, featuring a blog, portfolio, and resume.
 
 # A shorter description for the sidebar.
 tagline:               >
-  "Best Jekyll Theme by a Mile".
+  "Рыбалка на Канале имени Москвы".
   Open `_config.yml` to edit this text.
 
 # A list of keywords for your blog
@@ -49,22 +49,22 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Hydejack
+  - title:             Главная
     url:               /hydejack/
   - title:             Hyde
     url:               /hyde/
   - title:             Documentation
     url:               /docs/
-  - title:             About
+  - title:             О сайте
     url:               /about/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 # legal:
-#   - title:             Impress
-#     url:               /impress/
-#   - title:             Cookies Policy
-#     url:               /cookies-policy/
+  - title:             Impress
+    url:               /impress/
+  - title:             Cookies Policy
+    url:               /cookies-policy/
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             © 2018. All rights reserved.
@@ -73,7 +73,7 @@ copyright:             © 2018. All rights reserved.
 permalink:             /:categories/:year-:month-:day-:title/
 
 # Pagination configuration (used by the `blog` layout)
-paginate:              10
+paginate:              5
 paginate_path:         /page-:num/
 
 
