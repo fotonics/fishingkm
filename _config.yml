@@ -81,7 +81,7 @@ paginate_path:         /page-:num/
 # ========================================================================================
 
 # Sidebar image and theme color of the site.
-accent_image:          https://imgp.golos.io/0x0/https://img-fotki.yandex.ru/get/194541/10521869.1b3/0_b8801_8cf6556c_orig.jpg  #/assets/img/sidebar-bg.jpg
+accent_image:          https://live.staticflickr.com/65535/49087964611_4eef7cbffc_h.jpg  #/assets/img/sidebar-bg.jpg  <a data-flickr-embed="true" href="https://www.flickr.com/photos/185579046@N07/49087964611/in/dateposted-public/" title="DSC01966"><img src="https://live.staticflickr.com/65535/49087964611_4eef7cbffc_h.jpg" width="1600" height="1200" alt="DSC01966"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 accent_color:          rgb(219, 38, 9)
 
 # This is used for the `theme-color` meta tag,
