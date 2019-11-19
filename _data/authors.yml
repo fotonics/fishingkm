@@ -2,15 +2,13 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name:              <firstname> <lastname>
+  name:              Сергей Зайцев
   email:             fotonics@yandex.ru
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
     Описание будет добавлено
-
-    Open `_data/authors.yml` to edit this text.
 
 #    [Download Free][kit]
 #    -- or --
@@ -31,7 +29,7 @@ author1:
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    twitter:         <username>
+    twitter:         fotonics
     github:          fotonics
     email:           fotonics@yandex.ru
     # rss:             https://<url>/feed.xml
@@ -45,14 +43,14 @@ author1:
     # soundcloud:      <username>
     # lastfm:          <username>
     # instagram:       <username>
-    # flickr:          <string@string>
+    flickr:          fotonics@yandex.ru
     # 500px:           <username>
     # dribbble:        <username>
     # behance:         <username>
     # deviantart:      <username>
     # ello:            <username>
     # twitch:          <username>
-    # steam:           <number>
+    steam:           fnubik
     # reddit:          <username>
     # tumblr:          <username>
     # pinterest:       <username>
@@ -67,7 +65,7 @@ author1:
     # blogger:         <number>
     # delicious:       <username>
     # stumbleupon:     <username>
-    # paypal:          <username>
+    paypal:          fotonics77
     # download:        <url>
 
 # Another author (optional)

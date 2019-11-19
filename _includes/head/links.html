@@ -1,6 +1,6 @@
 {% if plugins contains 'jekyll-feed' %}{% include head/feed-tag.html %}{% endif %}
 
-{% assign lang = page.lang | default:site.lang | default:'en' %}
+{% assign lang = page.lang | default:site.lang | default:'ru' %}
 <link rel="alternate" href="{{ page.url | absolute_url }}" hreflang="{{ lang | downcase | replace:'_','-' }}">
 
 <link rel="shortcut icon" href="{{ '/assets/icons/favicon.ico' | relative_url }}">
@@ -17,7 +17,7 @@
 {% endif %}
 
 {% comment %}<!--
-  This is to avoid hard-coding URLs in JS (where they can't be discovered by automated tools).
+  Это делается для того, чтобы избежать жесткого кодирования URL-адресов в JS (где они не могут быть обнаружены автоматизированными инструментами).
 -->{% endcomment %}
 <link rel="dns-prefetch" href="{{ '/'                                                                        | relative_url }}" id="_baseURL">
 <link rel="dns-prefetch" href="{{ '/sw.js'                                                                   | relative_url }}" id="_hrefSW">

@@ -24,12 +24,12 @@ links:                 Links
 pagination:            Pagination
 newer:                 Далее
 older:                 Ранее
-forward:               Forward
-back:                  Back
+forward:               Вперёд
+back:                  Назад
 permalink:             Permalink
 permalink_icon:        icon-link
-templates:             Templates (for web app)
-present:               present
+templates:             Шаблоны (для веб-приложения)
+present:               подарок
 
 loading:               Загружаю…
 redirecting:           Перенаправляю…

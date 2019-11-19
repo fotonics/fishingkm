@@ -1,31 +1,31 @@
-# W3C SOFTWARE NOTICE AND LICENSE
+# КОНСОРЦИУМА W3C ЗАМЕТИТЬ, ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ И ЛИЦЕНЗИЙ
 
-**Status**: This license takes effect 13 May, 2015.
+** Статус**: настоящая лицензия вступает в силу 13 мая 2015 года.
 
-This work is being provided by the copyright holders under the following license.
+Данная работа предоставляется правообладателями по следующей лицензии.
 
-## License
+## Лицензия
 
-By obtaining and/or copying this work, you (the licensee) agree that you have read, understood, and will comply with the following terms and conditions.
+Получая и / или копируя эту работу, вы (лицензиат) соглашаетесь с тем, что вы прочитали, поняли и будете соблюдать следующие условия.
 
-Permission to copy, modify, and distribute this work, with or without modification, for any purpose and without fee or royalty is hereby granted, provided that you include the following on ALL copies of the work or portions thereof, including modifications:
+Настоящим предоставляется разрешение на копирование, изменение и распространение настоящего произведения, с изменениями или без изменений, для любых целей и без уплаты пошлин или роялти, при условии, что вы включаете следующее на всех копиях произведения или его частях, включая изменения:
 
-* The full text of this NOTICE in a location viewable to users of the redistributed or derivative work.
-* Any pre-existing intellectual property disclaimers, notices, or terms and conditions. If none exist, the W3C Software and Document Short Notice should be included.
-* Notice of any changes or modifications, through a copyright statement on the new code or document such as "This software or document includes material copied from or derived from [title and URI of the W3C document]. Copyright © [YEAR] W3C® (MIT, ERCIM, Keio, Beihang)."
+* Полный текст настоящего уведомления в месте, доступном для просмотра пользователями распространяемой или производной работы.
+* Любые ранее существовавшие заявления об отказе от прав интеллектуальной собственности, уведомления или положения и условия. Если таковой не существует, следует включить программное обеспечение W3C и краткое уведомление о документе.
+* Уведомление о любых изменениях или модификациях, посредством заявления об авторских правах на новый код или документ, например: "это программное обеспечение или документ включает в себя материалы, скопированные или полученные из [название и URI документа W3C]. Copyright © [YEAR] W3C® (MIT, ERCIM, Keio, Beihang)."
 
-## Disclaimers
+## Отказы
 
-THIS WORK IS PROVIDED "AS IS," AND COPYRIGHT HOLDERS MAKE NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO, WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF THE SOFTWARE OR DOCUMENT WILL NOT INFRINGE ANY THIRD PARTY PATENTS, COPYRIGHTS, TRADEMARKS OR OTHER RIGHTS.
+ЭТА РАБОТА ПРЕДОСТАВЛЯЕТСЯ "КАК ЕСТЬ", И ПРАВООБЛАДАТЕЛИ НЕ ДЕЛАЮТ НИКАКИХ ЗАЯВЛЕНИЙ ИЛИ ГАРАНТИЙ, ЯВНЫХ ИЛИ ПОДРАЗУМЕВАЕМЫХ, ВКЛЮЧАЯ, НО НЕ ОГРАНИЧИВАЯСЬ, ГАРАНТИИ ТОВАРНОГО СОСТОЯНИЯ ИЛИ ПРИГОДНОСТИ ДЛЯ КАКОЙ-ЛИБО КОНКРЕТНОЙ ЦЕЛИ ИЛИ ЧТО ИСПОЛЬЗОВАНИЕ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ ИЛИ ДОКУМЕНТА НЕ БУДЕТ НАРУШАТЬ ЛЮБЫЕ ПАТЕНТЫ ТРЕТЬИХ ЛИЦ, АВТОРСКИЕ ПРАВА, ТОВАРНЫЕ ЗНАКИ ИЛИ ДРУГИЕ ПРАВА.
 
-COPYRIGHT HOLDERS WILL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, SPECIAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF ANY USE OF THE SOFTWARE OR DOCUMENT.
+ПРАВООБЛАДАТЕЛИ НЕ НЕСУТ ОТВЕТСТВЕННОСТИ ЗА ЛЮБЫЕ ПРЯМЫЕ, КОСВЕННЫЕ, СПЕЦИАЛЬНЫЕ ИЛИ КОСВЕННЫЕ УБЫТКИ, ВОЗНИКАЮЩИЕ В РЕЗУЛЬТАТЕ ЛЮБОГО ИСПОЛЬЗОВАНИЯ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ ИЛИ ДОКУМЕНТА.
 
-The name and trademarks of copyright holders may NOT be used in advertising or publicity pertaining to the work without specific, written prior permission. Title to copyright in this work will at all times remain with copyright holders.
+Название и товарные знаки правообладателей не могут использоваться в рекламе или рекламе, относящейся к произведению, без специального письменного предварительного разрешения. Право собственности на авторские права в этой работе всегда будет оставаться у правообладателей.
 
-## Notes
+## Примечания
 
-This version: <http://www.w3.org/Consortium/Legal/2015/copyright-software-and-document>
+Эта версия: <http://www.w3.org/Consortium/Legal/2015/copyright-software-and-document>
 
-Previous version: <http://www.w3.org/Consortium/Legal/2002/copyright-software-20021231>
+Предыдущая версия: <http://www.w3.org/Consortium/Legal/2002/copyright-software-20021231>
 
-This version makes clear that the license is applicable to both software and text, by changing the name and substituting "work" for instances of "software and its documentation." It moves "notice of changes or modifications to the files" to the copyright notice, to make clear that the license is compatible with other liberal licenses.
+Эта версия дает понять, что лицензия применима как к программному обеспечению, так и к тексту, изменяя название и заменяя "работу" для экземпляров "программного обеспечения и его документации."Он перемещает" уведомление об изменениях или модификациях файлов " в уведомление об авторских правах, чтобы дать понять, что лицензия совместима с другими либеральными лицензиями.

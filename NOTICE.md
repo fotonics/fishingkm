@@ -1,49 +1,49 @@
-# NOTICE
+# Примечание
 
-Copyright (c) 2018 Florian Klampfer <https://qwtel.com/>
 
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
+Авторское право (c) 2018 Флориан телевизором с кабельными каналами <https://qwtel.com/>
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
+Эта программа является свободным программным обеспечением: вы можете распространять его и / или изменять
+это в соответствии с условиями GNU General Public License, опубликованной
+Фонд свободного программного обеспечения, либо версия 3 Лицензии, либо
+(по вашему выбору) любая более поздняя версия.
 
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.
+Эта программа распространяется в надежде, что она будет полезна,
+но без каких-либо гарантий; даже без подразумеваемой гарантии
+Товарность или пригодность для определенной цели.  См.
+GNU General Public License для более подробной информации.
 
-## Attributions
-Appropriate credit as per Creative Commons licenses.
+Вы должны были получить копию GNU General Public License <http://www.gnu.org/licenses/>.
 
-| Work                                                   | License        | Changes
+## Атрибуции
+Соответствующий кредит в соответствии с лицензиями Creative Commons.
+
+| Работа                                                 | License        | Changes
 |:-------------------------------------------------------|:---------------|:-
-| [Photo][ph] by [Caleb George][cg]                      | [Unsplash]     | Rearranged objects, Filled in content, blurred
+| [Photo][ph] by [Caleb George][cg]                      | [Unsplash]     | Переставленные объекты, заполненные содержимым, размытые
 | [IcoMoon Icons Free Version][11] by [Keyamoon][12]     | [CC-BY-SA-4.0] | None
-| [Touch-161562.svg][41]                                 | [CC0-1.0]      | Composition
+| [Touch-161562.svg][41]                                 | [CC0-1.0]      | Состав
 
-## Licenses
-Parts of this software are provided under separate licenses.
+## Лицензии
+Части этого программного обеспечения предоставляются по отдельным лицензиям.
 
-### Hyde
-This software also uses portions of the
+### Хайд
+Это программное обеспечение также использует части
 `poole/hyde`
-project, which is MIT licensed with the following copyright:
+проект, который лицензируется MIT со следующими авторскими правами:
 
-> Copyright (c) 2013 Mark Otto.
+> Copyright (c) 2013 Марк Отто.
 
-A copy of the [MIT] license is provided as part of this distribution.
+Копия лицензии [MIT] предоставляется как часть этого дистрибутива.
 
 ### hy-drawer
-This software also uses portions of the
+Это программное обеспечение также использует части
 `hydecorp/hy-drawer`
-project, which is GPL-3.0 licensed with the following copyright:
+проект, который является лицензией GPL-3.0 со следующими авторскими правами:
 
-> Copyright (c) 2018 Florian Klampfer <https://qwtel.com/>
+> Авторское право (c)  2018 Florian Klampfer <https://qwtel.com/>
 
-A copy of the [GPL-3.0] license is provided as part of this distribution.
+Копия лицензии [GPL-3.0] предоставляется в рамках данного дистрибутива.
 
 ### hy-push-state
 This software also uses portions of the
@@ -311,17 +311,17 @@ A copy of the [W3C] license is provided as part of this distribution.
 ### webcomponents.js (v1 spec polyfills)
 This software also uses portions of the
 `webcomponents/webcomponentsjs`
-project, which is BSD-style licensed with the following copyright:
+проект, который имеет лицензию BSD-стиля со следующими авторскими правами:
 
-> Copyright (c) 2015 The Polymer Authors. All rights reserved.
+> Copyright (c) 2015 авторы полимера. Все права защищены.
 
-Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+Распространение и использование в исходной и бинарной формах, с модификацией или без модификации, разрешается при условии соблюдения следующих условий:
 
-* Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
-* Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
-* Neither the name of Google Inc. nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+* При распространении исходного кода необходимо сохранить вышеуказанное уведомление об авторских правах, этот список условий и следующий отказ от ответственности.
+* При распространении в двоичной форме необходимо воспроизвести вышеуказанное уведомление об авторских правах, настоящий перечень условий и нижеследующий отказ от ответственности в документации и / или других материалах, прилагаемых к распространению.
+* Ни название компании Google Inc. ни имена его участников не могут использоваться для поддержки или продвижения продуктов, полученных из этого программного обеспечения, без специального предварительного письменного разрешения.
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ЭТО ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ ПРЕДОСТАВЛЯЕТСЯ ПРАВООБЛАДАТЕЛЯМИ И УЧАСТНИКАМИ "КАК ЕСТЬ", И ЛЮБЫЕ ЯВНЫЕ ИЛИ ПОДРАЗУМЕВАЕМЫЕ ГАРАНТИИ, ВКЛЮЧАЯ, НО НЕ ОГРАНИЧИВАЯСЬ, ПОДРАЗУМЕВАЕМЫЕ ГАРАНТИИ КОММЕРЧЕСКОЙ ЦЕННОСТИ И ПРИГОДНОСТИ ДЛЯ КОНКРЕТНОЙ ЦЕЛИ, НЕ ПРИНИМАЮТСЯ. НИ В КОЕМ СЛУЧАЕ ВЛАДЕЛЕЦ АВТОРСКИХ ПРАВ ИЛИ АВТОРЫ НЕ НЕСУТ ОТВЕТСТВЕННОСТИ ЗА КАКИЕ-ЛИБО ПРЯМЫЕ, КОСВЕННЫЕ, СЛУЧАЙНЫЕ, СПЕЦИАЛЬНЫЕ, ОБРАЗЦОВЫЕ ИЛИ КОСВЕННЫЕ УБЫТКИ (ВКЛЮЧАЯ, НО НЕ ОГРАНИЧИВАЯСЬ, ПРИОБРЕТЕНИЕ ЗАМЕНЯЮЩИХ ТОВАРОВ ИЛИ УСЛУГ; ПОТЕРЮ ИСПОЛЬЗОВАНИЯ, ДАННЫХ ИЛИ ПРИБЫЛИ; ИЛИ ПРЕРЫВАНИЯ БИЗНЕСА), ОДНАКО ВЫЗВАНО И НА ЛЮБОЙ ТЕОРИИ ОТВЕТСТВЕННОСТИ, БУДЬ ТО В ДОГОВОРЕ, СТРОГОЙ ОТВЕТСТВЕННОСТИ ИЛИ ДЕЛИКТА (ВКЛЮЧАЯ НЕБРЕЖНОСТЬ ИЛИ ИНЫМ ОБРАЗОМ), ВОЗНИКАЮЩИХ В ЛЮБОМ СЛУЧАЕ ИЗ ИСПОЛЬЗОВАНИЯ ЭТОГО ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ, ДАЖЕ ЕСЛИ СООБЩАЕТСЯ О ВОЗМОЖНОСТИ ТАКОГО УЩЕРБА.
 
 [11]: https://icomoon.io/#icons-icomoon
 [12]: http://keyamoon.com/

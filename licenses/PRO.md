@@ -1,136 +1,136 @@
-# PRO License
-## License Summary
-* License concerns use of [Hydejack PRO][1]
-* License does not expire
-* Commercial use allowed
-* Can modify source code
-* Parts of software are provided under [separate licenses](../NOTICE.md#licenses)
+# PRO лицензия
+## Краткое Описание Лицензии
+* Лицензия касается использования [Hydejack PRO][1]
+* Срок действия лицензии не истекает
+* Разрешено коммерческое использование
+* Можно изменить исходный код
+* Части программного обеспечения предоставляются по [отдельным лицензиям] (../NOTICE.md#лицензии)
 
-## Terms and Conditions
-### 1. Preamble
-This Agreement governs the relationship between you (hereinafter: Licensee) and
-Florian Klampfer qwtel.com (hereinafter: Licensor).
-This Agreement sets the terms, rights, restrictions and obligations on using
-Hydejack PRO (hereinafter: The Software)
-created and owned by Licensor, as detailed herein.
+## Правила и условия
+##№ 1. Вступление
+Настоящее Соглашение регулирует отношения между вами (далее-лицензиат) и
+Флориан qwtel.com телевизором с кабельными каналами (далее-лицензиар).
+Настоящее соглашение устанавливает условия, права, ограничения и обязательства по использованию
+Hydejack PRO (далее: программное обеспечение)
+создано и принадлежит лицензиару, как подробно описано в настоящем документе.
 
-### 2. License Grant
-Licensor hereby grants Licensee a Personal, Perpetual, Commercial, Royalty free,
-Including the rights to create derivative works, Non-exclusive license, all with accordance with
-the terms set forth and other legal restrictions set forth in 3rd party software used while running Software.
+### 2. Предоставление Лицензии
+Лицензиар настоящим предоставляет лицензиату персональную, бессрочную, коммерческую, безвозмездную лицензию,
+В том числе права на создание производных произведений, неисключительная лицензия, все в соответствии с
+условия, изложенные и другие правовые ограничения, изложенные в программном обеспечении сторонних производителей, используемых при запуске программного обеспечения.
 
-1.  **Limited:** Licensee may use Software for the purpose of:
+1.  ** Ограниченный: * * лицензиат может использовать программное обеспечение в целях:
 
-    1. Running Software on Licensee’s Website[s] and Server[s];
-    2. Allowing 3rd Parties to run Software on Licensee’s Website[s] and Server[s];
-    3. Publishing Software’s output to Licensee and 3rd Parties;
-    4. Modify Software to suit Licensee’s needs and specifications.
+    1. Запуск программного обеспечения на веб-сайте лицензиата и сервере];
+    2. Разрешение третьим лицам запускать программное обеспечение на веб-сайте лицензиата и сервере];
+    3. Публикация результатов работы программного обеспечения лицензиату и третьим лицам;
+    4. Модифицируйте программное обеспечение в соответствии с потребностями и спецификациями лицензиата.
 
-2.  This license is granted perpetually, as long as you do not materially breach it.
+2.  Эта лицензия предоставляется бессрочно, до тех пор, пока вы не нарушите ее существенно.
 
-3.  **Commercial, Royalty Free:** Licensee may use Software for any purpose, including paid-services, without any
-    royalties
+3.  ** Коммерческая, безвозмездная: * * лицензиат может использовать программное обеспечение для любых целей, включая платные услуги, без каких-либо
+    гонорар
 
-4.  **Including the Right to Create Derivative Works:** Licensee may create derivative works based on Software,
-including amending Software’s source code, modifying it, integrating it into a larger work or removing portions of
-Software.
+4.  ** Включая право на создание производных произведений:* * лицензиат может создавать производные произведения на основе программного обеспечения,
+включая внесение изменений в исходный код программного обеспечения, его модификацию, интеграцию в большую работу или удаление частей
+Программное обеспечение.
 
-### 3. Term & Termination:
-The Term of this license shall be until terminated. Licensor may terminate this Agreement,
-including Licensee’s license in the case where Licensee:
+### 3. Срок И Прекращение Действия:
+Срок действия настоящей лицензии действует до прекращения ее действия. Лицензиар вправе расторгнуть настоящее Соглашение,
+в том числе лицензию лицензиата в случае, если лицензиат:
 
-1.  became insolvent or otherwise entered into any liquidation process; or
-2.  exported The Software to any jurisdiction where licensor may not enforce his rights under this agreements in; or
-3.  Licensee was in breach of any of this license's terms and conditions and such breach was not cured, immediately
-    upon notification; or
-4.  Licensee in breach of any of the terms of clause 2 to this license; or
-5.  Licensee otherwise entered into any arrangement which caused Licensor to be unable to enforce his rights under
-    this License.
+1.  стал неплатежеспособным или иным образом вступил в какой-либо процесс ликвидации; или
+2.  экспортировал программное обеспечение в любую юрисдикцию, где лицензиар не может осуществлять свои права в соответствии с настоящими соглашениями; или
+3.  Лицензиат нарушил любое из условий настоящей лицензии, и такое нарушение не было устранено немедленно
+    после уведомления; или
+4.  Лицензиат в нарушение любого из условий пункта 2 настоящей лицензии; или
+5.  Лицензиат иным образом заключил любое соглашение, которое привело к тому, что лицензиар не смог реализовать свои права в соответствии
+    эта лицензия.
 
-### 4. Payment
-In consideration of the License granted under clause 2, Licensee shall pay Licensor a fee, via
-Credit-Card or any other means which Licensor may deem adequate. Failure to perform payment shall construe as
-material breach of this Agreement.
+### 4. Платеж
+В связи с лицензией, предоставленной в соответствии с пунктом 2, лицензиат уплачивает лицензиару плату, посредством
+Кредитная карта или любые другие средства, которые лицензиар может счесть адекватными. Неисполнение платежа истолковывается как
+существенное нарушение настоящего Соглашения.
 
-### 5. Upgrades, Updates and Fixes
-Licensor may provide Licensee, from time to time, with Upgrades, Updates or Fixes,
-as detailed herein and according to his sole discretion. Licensee hereby warrants to keep The Software up-to-date
-and install all relevant updates and fixes, and may, at his sole discretion, purchase upgrades, according to the
-rates set by Licensor. Licensor shall provide any update or Fix free of charge; however, nothing in this Agreement
-shall require Licensor to provide Updates or Fixes.
+### 5. Обновления и исправления
+Лицензиар может время от времени предоставлять лицензиату обновления, обновления или исправления,
+как подробно описано здесь и по его собственному усмотрению. Лицензиат настоящим гарантирует, что программное обеспечение будет обновляться
+и установить все соответствующие обновления и исправления, а также может, по своему усмотрению, приобрести обновления, согласно
+тарифы устанавливаются лицензиаром. Лицензиар обязуется предоставлять любые обновления или исправления бесплатно; однако, ничего в настоящем Соглашении
+требует от лицензиара предоставления обновлений или исправлений.
 
-1.  **Upgrades:** for the purpose of this license, an Upgrade shall be a material amendment in The Software, which
-    contains new features and or major performance improvements and shall be marked as a new version number. For
-    example, should Licensee purchase The Software under version 1.X.X, an upgrade shall commence under number
+1.  ** Обновления: * * для целей настоящей лицензии обновление является существенным изменением в программном обеспечении, которое
+    содержит новые функции и / или основные улучшения производительности и должен быть помечен как новый номер версии. Для
+    например, должен ли лицензиат приобрести программное обеспечение под версией 1.X. X, обновление должно начинаться под номером
     2.0.0.
 
-2.  **Updates:** for the purpose of this license, an update shall be a minor amendment in The Software, which may
-    contain new features or minor improvements and shall be marked as a new sub-version number. For example, should
-    Licensee purchase The Software under version 1.1.X, an upgrade shall commence under number 1.2.0.
+2.  ** Обновления: * * для целей настоящей лицензии обновление является незначительным изменением в программном обеспечении, которое может
+    содержат новые функции или незначительные улучшения и должны быть помечены как новый номер субверсии. Например, следует
+    Лицензиат приобретает программное обеспечение в версии 1.1.X, обновление должно начинаться под номером 1.2.0.
 
-3.  **Fix:** for the purpose of this license, a fix shall be a minor amendment in The Software, intended to remove
-    bugs or alter minor features which impair the The Software's functionality. A fix shall be marked as a new
-    sub-sub-version number. For example, should Licensee purchase Software under version 1.1.1, an upgrade shall
-    commence under number 1.1.2.
+3.  ** Исправление: * * для целей настоящей лицензии исправление является незначительной поправкой в программном обеспечении, предназначенной для удаления
+    ошибки или изменить незначительные функции, которые ухудшают функциональность программного обеспечения. Исправление должно быть помечено как новое
+    номер суб - субверсии. Например, если лицензиат приобретает программное обеспечение под версией 1.1.1, обновление должно быть выполнено
+    начинайте под номером 1.1.2.
 
-### 6. Support
-Software is provided under an AS-IS basis and without any support, updates or maintenance. Nothing in
-this Agreement shall require Licensor to provide Licensee with support or fixes to any bug, failure,
-mis-performance or other defect in The Software.
+### 6. Поддержка
+Программное обеспечение предоставляется на условиях "как есть" и без какой-либо поддержки, обновлений или технического обслуживания. Ничего
+настоящее соглашение обязывает лицензиара предоставлять лицензиату поддержку или исправления любых ошибок, сбоев,
+неправильная производительность или другой дефект в программном обеспечении.
 
-1.  **Bug Notification:** Licensee may provide Licensor of details regarding any bug, defect or failure in The
-    Software promptly and with no delay from such event; Licensee shall comply with Licensor's request for
-    information regarding bugs, defects or failures and furnish him with information, screenshots and try to
-    reproduce such bugs, defects or failures.
+1.  ** Уведомление об ошибке:* * лицензиат может предоставить лицензиару подробную информацию о любой ошибке, дефекте или неисправности в системе.
+    Программное обеспечение оперативно и без задержек с момента такого события; лицензиат обязан выполнить требование лицензиара о предоставлении
+    информацию об ошибках, дефектах или сбоях и предоставить ему информацию, скриншоты и попытаться
+    воспроизводите такие ошибки, дефекты или сбои.
 
-2.  **Feature Request:** Licensee may request additional features in Software, provided, however, that:
+2.  ** Запрос функций:* * лицензиат может запросить дополнительные функции в программном обеспечении, при условии, однако, что:
 
-    1.  Licensee shall waive any claim or right in such feature should feature be developed by Licensor;
-    2.  Licensee shall be prohibited from developing the feature, or disclose such feature request, or feature, to
-        any 3rd party directly competing with Licensor or any 3rd party which may be, following the development of
-        such feature, in direct competition with Licensor;
-    3.  Licensee warrants that feature does not infringe any 3rd party patent, trademark, trade-secret or any other
-        intellectual property right; and
-    4.  Licensee developed, envisioned or created the feature solely by himself.
+    1.  Лицензиат отказывается от каких-либо претензий или прав на такую функцию, если функция разрабатывается лицензиаром;
+    2.  Лицензиату запрещается развивающихся объектов, или раскрывать такую просьбу характеристика, или характеристика, чтобы
+        любая третья сторона, непосредственно конкурирующая с лицензиаром, или любая третья сторона, которая может быть, после разработки
+        такая особенность, в прямой конкуренции с лицензиаром;
+    3.  Лицензиат гарантирует, что функция не нарушает патент третьей стороны, товарный знак, коммерческую тайну или любое другое
+        право интеллектуальной собственности; и
+    4.  Лицензиат разработал, предусмотрел или создал эту функцию исключительно сам.
 
-### 7. Liability
-To the extent permitted under Law, The Software is provided under an AS-IS basis. Licensor shall
-never, and without any limit, be liable for any damage, cost, expense or any other payment incurred by Licensee as
-a result of Software’s actions, failure, bugs and/or any other interaction between The Software and Licensee’s
-end-equipment, computers, other software or any 3rd party, end-equipment, computer or services. Moreover, Licensor
-shall never be liable for any defect in source code written by Licensee when relying on The Software or using The
-Software’s source code.
+### 7. Ответственность
+В пределах, разрешенных законом, программное обеспечение предоставляется на условиях "как есть". Лицензиар
+никогда и без каких-либо ограничений не несет ответственности за любой ущерб, стоимость, расходы или любые другие платежи, понесенные лицензиатом в качестве
+результат действий программного обеспечения, сбоев, ошибок и/или любого другого взаимодействия между программным обеспечением и лицензиатом
+конечное оборудование, компьютеры, другое программное обеспечение или любая третья сторона, конечное оборудование, компьютер или услуги. Кроме Того, Лицензиар
+никогда не несет ответственности за какой-либо дефект в исходном коде, написанном лицензиатом, когда он полагается на программное обеспечение или использует
+Исходный код программы.
 
-### 8. Warranty
-1.  **No-Warranty:** The Software is provided without any warranty; Licensor hereby disclaims any warranty that The
-    Software shall be error free, without defects or code which may cause damage to Licensee’s computers or to
-    Licensee, and that Software shall be functional. Licensee shall be solely liable to any damage, defect or loss
-    incurred as a result of operating software and undertake the risks contained in running The Software on
-    License’s Server[s] and Website[s].
+### 8. Гарантия
+1.  ** Отсутствие гарантии:* * программное обеспечение предоставляется без каких-либо гарантий; лицензиар настоящим отказывается от любых гарантий, что
+    Программное обеспечение должно быть безошибочным, без дефектов или кода, которые могут привести к повреждению компьютеров лицензиата или
+    Лицензиат, и это программное обеспечение должно быть функциональным. Лицензиат несет исключительную ответственность за любой ущерб, дефект или потерю
+    понесенные в результате эксплуатации программного обеспечения и взять на себя риски, содержащиеся в запуске программного обеспечения на
+    Сервер лицензии и веб-сайт.
 
-2.  **Prior Inspection:** Licensee hereby states that he inspected The Software thoroughly and found it
-    satisfactory and adequate to his needs, that it does not interfere with his regular operation and that it does
-    meet the standards and scope of his computer systems and architecture. Licensee found that The Software
-    interacts with his development, website and server environment and that it does not infringe any of End User
-    License Agreement of any software Licensee may use in performing his services. Licensee hereby waives any
-    claims regarding The Software's incompatibility, performance, results and features, and warrants that he
-    inspected the The Software.
+2.  ** Предварительная проверка: * * лицензиат настоящим заявляет, что он тщательно проверил программное обеспечение и обнаружил его
+    удовлетворительно и адекватно его потребностям, чтобы это не мешало его регулярной работе и что это делает
+    соответствуют стандартам и сфере применения его компьютерных систем и архитектуры. Лицензиат обнаружил, что программное обеспечение
+    взаимодействует с его разработкой, веб-сайтом и серверной средой и что это не нарушает ни одного конечного пользователя
+    Лицензионное соглашение любого лицензиата программного обеспечения может использоваться при выполнении его услуг. Лицензиат настоящим отказывается от любых
+    претензии, касающиеся несовместимости программного обеспечения, производительности, результатов и функций, и гарантирует, что он
+    осмотрел программное обеспечение.
 
-### 9. No Refunds
-Licensee warrants that he inspected The Software according to clause 8.2 and that it is adequate to
-his needs. Accordingly, as The Software is intangible goods, Licensee shall not be, ever, entitled to any refund,
-rebate, compensation or restitution for any reason whatsoever, even if The Software contains material flaws.
+### 9. никакое возмещение
+Лицензиат гарантирует, что он проверил программное обеспечение в соответствии с пунктом 8.2 и что оно является адекватным
+его потребность. Соответственно, поскольку программное обеспечение является нематериальным товаром, лицензиат никогда не имеет права на какой-либо возврат средств,
+скидка, компенсация или реституция по любой причине, даже если программное обеспечение содержит существенные недостатки.
 
-### 10. Indemnification
-Licensee hereby warrants to hold Licensor harmless and indemnify Licensor for any lawsuit
-brought against it in regards to Licensee’s use of The Software in means that violate, breach or otherwise
-circumvent this license, Licensor's intellectual property rights or Licensor's title in The Software. Licensor
-shall promptly notify Licensee in case of such legal action and request Licensee’s consent prior to any settlement
-in relation to such lawsuit or claim.
+### 10. Компенсация
+Лицензиат настоящим гарантирует, что лицензиар будет невредим и возместит ущерб лицензиару в связи с любым судебным иском
+возбуждено против него в связи с использованием лицензиатом программного обеспечения в средствах, которые нарушают, нарушают или иным образом
+обойти эту лицензию, права интеллектуальной собственности лицензиара или право собственности лицензиара на программное обеспечение. Лицензиар
+незамедлительно уведомляет лицензиата в случае такого судебного иска и запрашивает согласие лицензиата до любого урегулирования
+в отношении такого иска или иска.
 
-### 11. Governing Law, Jurisdiction
-Licensee hereby agrees not to initiate class-action lawsuits against Licensor in
-relation to this license and to compensate Licensor for any legal fees, cost or attorney fees should any claim
-brought by Licensee against Licensor be denied, in part or in full.
+### 11. Применимое Право, Юрисдикция
+Лицензиат настоящим соглашается не возбуждать коллективные иски против лицензиара в
+в связи с настоящей лицензией и компенсировать лицензиару любые судебные издержки, расходы или гонорары адвоката в случае возникновения претензий
+предъявленные лицензиатом претензии к лицензиару могут быть отклонены частично или полностью.
 
 [1]: https://hydejack.com/

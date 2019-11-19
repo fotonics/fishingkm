@@ -10,12 +10,12 @@ url: https://fotonics.github.io/
 # When your site sits in a subdirectory, set to /<name of directory>
 # (with leading /, but without the < >).
 # Use the empty string '' otherwise.
-# For GitHub project sites, this is usually the name of the project,
+# Для проекта на GitHub сайтах, обычно это название проекта,
 # e.g. `/hydejack`.
-baseurl: '/fishingkm'
+baseurl: /fishingkm
 
-# Language of your content in 2-letter code, e.g.: en, de.
-# You may also provide a location, e.g.: en-us, de_AT.
+# Язык вашего контента в 2-буквенном коде, например: en, de.
+# Вы также можете указать местоположение, например: en-us, de_AT.
 lang:  ru
 
 # The title of your blog. Used in the sidebar and the browser tab.
@@ -25,27 +25,27 @@ title:  FishingKm
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
   "Рыбалка на Канале имени Москвы".
-  **Hydejack** is your presence on the web, featuring a blog, portfolio, and resume.
+
 
 # A shorter description for the sidebar.
 tagline:               >
   "Рыбалка на Канале им. Москвы".
-  Open `_config.yml` to edit this text.
+  Каждый кулик своё болото хвалит
 
 # A list of keywords for your blog
-keywords:              []
+keywords:              [рыбалка, канал]
 
-# A (square) logo for your site.
-# If provided, it will be shown at the top of the sidebar.
-# It also used by the `jekyll-seo-tag` plugin.
+# (Квадратный) логотип для вашего сайта.
+# Если это предусмотрено, он будет показан в верхней части боковой панели.
+# Он также используется плагином "jekyll-seo-tag".
 logo:                  /assets/icons/logo.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                Сергей Зайцев
+  email:               fotonics@yandex.ru
   # Used by `jekyll-seo-tag`:
-  # twitter:             <username>
+  twitter:             fishingkm
 
 # Add links to the sidebar.
 menu:
@@ -138,7 +138,7 @@ defaults:
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-# disqus:                <disqus_shortname>
+disqus:                fishingkm
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # tinyletter:            <tinyletter_username>
