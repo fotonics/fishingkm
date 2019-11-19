@@ -49,11 +49,11 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Главная
+  - title:             Где ловим
     url:               /hydejack/
-  - title:             Hyde
+  - title:             Как ловим
     url:               /hyde/
-  - title:             Documentation
+  - title:             Справочник
     url:               /docs/
   - title:             О сайте
     url:               /about/
@@ -67,7 +67,7 @@ legal:
    url:               /cookies-policy/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2018. All rights reserved.
+copyright:            <a rel="license" href="http://creativecommons.org/licenses/by-nc/2.0/"><img alt="Лицензия Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/2.0/80x15.png" /></a><br />Все материалы предоставлены по <a rel="license" href="http://creativecommons.org/licenses/by-nc/2.0/">лицензии Creative Commons «Attribution-NonCommercial» («Атрибуция — Некоммерческое использование») 2.0 Generic</a> © 2018. Все права защищены.
 
 # Format of the permalinks
 permalink:             /:categories/:year-:month-:day-:title/
@@ -82,7 +82,7 @@ paginate_path:         /page-:num/
 
 # Sidebar image and theme color of the site.
 accent_image:          https://live.staticflickr.com/65535/49087964611_4eef7cbffc_h.jpg  #/assets/img/sidebar-bg.jpg  <a data-flickr-embed="true" href="https://www.flickr.com/photos/185579046@N07/49087964611/in/dateposted-public/" title="DSC01966"><img src="https://live.staticflickr.com/65535/49087964611_4eef7cbffc_h.jpg" width="1600" height="1200" alt="DSC01966"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-accent_color:          rgb(219, 38, 9)
+accent_color:          rgb(141, 99, 7)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
