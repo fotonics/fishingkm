@@ -67,7 +67,7 @@ legal:
    url:               /cookies-policy/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:            <a rel="license" href="http://creativecommons.org/licenses/by-nc/2.0/"><img alt="Лицензия Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/2.0/80x15.png" /></a><br />Все материалы предоставлены по <a rel="license" href="http://creativecommons.org/licenses/by-nc/2.0/">лицензии Creative Commons «Attribution-NonCommercial» («Атрибуция — Некоммерческое использование») 2.0 Generic</a> © 2019. Все права защищены.
+copyright:            <a rel="license" href="http://creativecommons.org/licenses/by-nc/2.0/"><img alt="Лицензия Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/2.0/80x15.png" style="display:inline-block;" /></a><br />Все материалы предоставлены по <a rel="license" href="http://creativecommons.org/licenses/by-nc/2.0/">лицензии Creative Commons «Attribution-NonCommercial» («Атрибуция — Некоммерческое использование») 2.0 Generic</a> © 2019. Все права защищены.
 
 # Format of the permalinks
 permalink:             /:categories/:year-:month-:day-:title/

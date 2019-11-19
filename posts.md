@@ -2,7 +2,7 @@
 layout: list
 title: Posts
 description: >
-  This is the `list` layout for showing blog posts, which shows just the title and groups them by year of publication.
-  Check out the `blog` layout for comparison.
-  Open `posts.md` to edit this text.
+  Это макет `list` для показа сообщений в блоге, который показывает только название и группирует их по годам публикации.
+  Проверить макет `blog` для сравнения.
+  Открыть `posts.md` чтобы отредактировать этот текст.
 ---
