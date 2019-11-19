@@ -14,7 +14,7 @@ home:                  Главная
 pages:                 Страница
 posts:                 Публикация
 about:                 О сайте
-related_posts:         Related Posts
+related_posts:         Похожие публикации
 other_projects:        Other Projects
 comments:              Comments
 jump_to:               Jump to
@@ -114,8 +114,8 @@ resume:
   courses:             Courses
   awards:              Awards
   awards_title:        <!--title--> from <!--awarder-->
-  publications:        Publications
-  publications_title:  <!--name--> by <!--publisher-->
+  publications:        Публикация
+  publications_title:  <!--name--> из <!--publisher-->
   references:          References
   languages:           Languages
   fluency:             Fluency
