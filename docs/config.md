@@ -59,7 +59,7 @@ Set the fallback values in `_config.yml`, which are used should no other rule (p
 
 ~~~yml
 # file: _config.yml
-accent_image: https://img-fotki.yandex.ru/get/194541/10521869.1b3/0_b8801_8cf6556c_orig.jpg #/assets/img/sidebar-bg.jpg
+accent_image: https://photos.app.goo.gl/RGwq5XVEJSudNQxW6 #/assets/img/sidebar-bg.jpg
 accent_color: rgb(79,177,186)
 ~~~
 
