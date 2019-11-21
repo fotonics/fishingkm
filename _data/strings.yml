@@ -1,12 +1,12 @@
 # Strings
 # =======================================================================================
-# This file contains all soft-coded strings of the theme.
-# You can edit them here if you want to change the wording of certain phrases,
-# e.g. maybe you prefer "Fetching…" to "Loading…", etc.
+# Этот файл содержит все программно-кодированные строки темы.
+# Вы можете редактировать их здесь, Если хотите изменить формулировку определенных фраз,
+# например, может быть, вы предпочитаете "Fetching..." к "Loading..." и т. д.
 #
-# You can also use this to "translate" the theme into different langauges,
-# but note that this may not work in all situations,
-# especially for languages that differ significantly from English.
+# # Вы также можете использовать это, чтобы "перевести" тему на разные языки,
+# но обратите внимание, что это может работать не во всех ситуациях,
+# особенно для языков, которые значительно отличаются от английского.
 
 # Free version
 # ---------------------------------------------------------------------------------------
@@ -20,14 +20,14 @@ comments:              Comments
 jump_to:               Jump to
 navigation:            Navigation
 social:                Social
-links:                 Links
-pagination:            Pagination
+links:                 Ссылки
+pagination:            Страницы
 newer:                 Далее
 older:                 Ранее
 forward:               Вперёд
 back:                  Назад
-permalink:             Permalink
-permalink_icon:        icon-link
+permalink:             Постоянная ссылка
+permalink_icon:        иконка-ссылка
 templates:             Шаблоны (для веб-приложения)
 present:               подарок
 
