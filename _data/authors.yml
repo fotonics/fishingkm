@@ -29,13 +29,13 @@ author1:
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    twitter:         fotonics
+    twitter:         fishingkm_ru
     github:          fotonics
     email:           fotonics@yandex.ru
     # rss:             https://<url>/feed.xml
     facebook:        fishingkm
     # google:          <number>
-    vk:              fotonics
+    # vk:              fotonics
     # youtube:         <string_string_string>
     # vimeo:           <username>
     # vine:            <username>
@@ -43,14 +43,14 @@ author1:
     # soundcloud:      <username>
     # lastfm:          <username>
     # instagram:       <username>
-    flickr:          fotonics@yandex.ru
+    flickr:          185579046@N07
     # 500px:           <username>
     # dribbble:        <username>
     # behance:         <username>
     # deviantart:      <username>
     # ello:            <username>
     # twitch:          <username>
-    steam:           fnubik
+    # steam:           fnubik
     # reddit:          <username>
     # tumblr:          <username>
     # pinterest:       <username>
@@ -70,18 +70,15 @@ author1:
 
 # Another author (optional)
 author2:
-  name:              <firtname> <lastname>
-  email:             <mail@domain.tld>
+  name:              Сергей Зайцев
+  email:             fotonics@yandex.ru
   about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Описание появится в ближайшее время
 
-    Open `_data/authors.yml` to edit this text.
   picture:           /assets/icons/logo.jpg
-  twitter:           <username>
-  github:            <username>
+  twitter:           fishingkm_ru
+  github:            fotonics
   accent_color:      '#268bd2'
   accent_image:
     background:      '#202020'
-    overlay:         false
+    overlay:         true

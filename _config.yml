@@ -24,13 +24,14 @@ title:  FishingKm
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  "Рыбалка на Канале имени Москвы".
+  "Рыбалка на Канале имени Москвы"
 
 
 # A shorter description for the sidebar.
 tagline:               >
-  "Рыбалка на Канале им. Москвы".
-  Каждый кулик своё болото хвалит
+  <i>Как говорится, Каждый кулик своё болото хвалит!<br>
+  Кто то рыбачит на "Можайке", кто то на Истре.</i><br>
+  <strong>Рыбалка на Канале имени Москвы и прилегающих к нему водохранилищах</strong><br> - вот тема этой страницы.
 
 # A list of keywords for your blog
 keywords:              [рыбалка, канал]
@@ -81,7 +82,7 @@ paginate_path:         /page-:num/
 # ========================================================================================
 
 # Sidebar image and theme color of the site.
-accent_image:          https://live.staticflickr.com/65535/49087964611_4eef7cbffc_h.jpg  #/assets/img/sidebar-bg.jpg  <a data-flickr-embed="true" href="https://www.flickr.com/photos/185579046@N07/49087964611/in/dateposted-public/" title="DSC01966"><img src="https://live.staticflickr.com/65535/49087964611_4eef7cbffc_h.jpg" width="1600" height="1200" alt="DSC01966"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+accent_image:          https://live.staticflickr.com/65535/49098475146_13875623f6_k.jpg  #<a data-flickr-embed="true" href="https://www.flickr.com/photos/185579046@N07/49098475146/" title="slide-03"><img src="https://live.staticflickr.com/65535/49098475146_13875623f6_k.jpg" width="2048" height="1152" alt="slide-03"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 accent_color:          rgb(141, 99, 7)
 
 # This is used for the `theme-color` meta tag,
@@ -134,7 +135,7 @@ defaults:
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
-# google_analytics:      UA-XXXXXXXX-X
+google_analytics:      UA-53656920-3
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
@@ -303,11 +304,11 @@ twitter:
 #   admins:              <id>
 
 # Used on index and about sites
-# social:
-#   name:                <firstname> <lastname>
-#   links:
-#     - https://twitter.com/<username>
-#     - https://github.com/<username>
+social:
+  name:                Сергей Зайцев
+  links:
+    - https://twitter.com/fishingkm_ru
+    - https://github.com/fotonics
 
 
 # Other Plugins
