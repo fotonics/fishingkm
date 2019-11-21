@@ -24,12 +24,12 @@ title:  FishingKm
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  "Рыбалка на Канале имени Москвы".
+  "Рыбалка на Канале имени Москвы"
 
 
 # A shorter description for the sidebar.
 tagline:               >
-  "Рыбалка на Канале им. Москвы".
+  "Рыбалка на Канале им. Москвы"
   Каждый кулик своё болото хвалит
 
 # A list of keywords for your blog
@@ -45,7 +45,7 @@ author:
   name:                Сергей Зайцев
   email:               fotonics@yandex.ru
   # Used by `jekyll-seo-tag`:
-  twitter:             fishingkm
+  twitter:             fishingkm_ru
 
 # Add links to the sidebar.
 menu:
@@ -116,17 +116,17 @@ defaults:
       type:            projects
     values:
       seo:
-        type:          WebPage
+        type:          BlogPosting
   - scope:
       type:            featured_categories
     values:
       seo:
-        type:          WebPage
+        type:          BlogPosting
   - scope:
       type:            featured_tags
     values:
       seo:
-        type:          WebPage
+        type:          BlogPosting
 
 
 # 3rd Party Integrations
@@ -138,7 +138,7 @@ defaults:
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-disqus:                fishingkm
+disqus:                disqus_O1CbYliQo1
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # tinyletter:            <tinyletter_username>
@@ -158,7 +158,7 @@ hydejack:
   no_google_fonts:     false
 
  # Установите значение true, если вы не хотите показывать значок с указанием внешних ссылок
-  no_mark_external:    false
+  no_mark_external:    true
 
   # Установите значение true, если сторонние плагины не работают с динамически загруженными страницами
   no_push_state:       false
@@ -171,11 +171,11 @@ hydejack:
 
   # Установите значение 'true', если вы не хотите, чтобы части css были встроены в <head/>
   # Это значительно увеличит скорость сборки сайта!
-  no_inline_css:       false
+  no_inline_css:       true
 
   # Установите значение true, если вы не собираетесь изменять цвет акцента на каждой странице.
   # Это увеличит скорость сборки сайта!
-  no_page_style:       false
+  no_page_style:       true
 
   # Блоки кода и таблицы "ломают" макет, охватывая всю доступную ширину.
   # Установите это значение в true, если вы хотите, чтобы они были такой же ширины, как и другие материалы.
@@ -187,7 +187,7 @@ hydejack:
 
   # Вы можете установить это значение в 'true', если вы не хотите устанавливать мета-тег `theme-color,
   # Это влияет только на метатег, а не на цвет, указанный в манифесте приложения.
-  no_theme_color:      true
+  no_theme_color:      false
 
   # Установите значение 'true' при построении с параметром ' --lsi` 
   use_lsi:             false
@@ -197,7 +197,7 @@ hydejack:
   cookies_banner:      true
 
   # Установите значение "true", если вы хотите добавить ссылку" Powered by Hyde jack " в нижнем колонтитуле.
-  advertise:           true
+  advertise:           false
 
   # Note that dark mode only works in the PRO version of Hydejack.
   dark_mode:
@@ -293,8 +293,8 @@ plugins:
 #   yandex:              <verification-id>
 
 # Used for Twitter cards
-# twitter:
-#   username:            <shortname>
+ twitter:
+   username:            fishingkm_ru
 
 # Used for Facebook open graph
 # facebook:
