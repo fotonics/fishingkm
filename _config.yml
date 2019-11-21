@@ -24,12 +24,12 @@ title:  FishingKm
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  "Рыбалка на Канале имени Москвы"
+  "Рыбалка на Канале имени Москвы".
 
 
 # A shorter description for the sidebar.
 tagline:               >
-  "Рыбалка на Канале им. Москвы"
+  "Рыбалка на Канале им. Москвы".
   Каждый кулик своё болото хвалит
 
 # A list of keywords for your blog
@@ -116,17 +116,17 @@ defaults:
       type:            projects
     values:
       seo:
-        type:          BlogPosting
+        type:          WebPage
   - scope:
       type:            featured_categories
     values:
       seo:
-        type:          BlogPosting
+        type:          WebPage
   - scope:
       type:            featured_tags
     values:
       seo:
-        type:          BlogPosting
+        type:          WebPage
 
 
 # 3rd Party Integrations
@@ -293,8 +293,8 @@ plugins:
 #   yandex:              <verification-id>
 
 # Used for Twitter cards
- twitter:
-   username:            fishingkm_ru
+twitter:
+  username:            fishingkm_ru
 
 # Used for Facebook open graph
 # facebook:
