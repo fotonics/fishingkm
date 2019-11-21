@@ -77,8 +77,5 @@ author2:
 
   picture:           /assets/icons/logo.jpg
   twitter:           fishingkm_ru
-  github:            fotonics
-  accent_color:      '#268bd2'
-  accent_image:
-    background:      '#202020'
-    overlay:         true
+  github:            fotonics  
+  accent_image:      'https://live.staticflickr.com/65535/49098475261_2bc3ec59ff_h.jpg'
