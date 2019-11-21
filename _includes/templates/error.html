@@ -1,6 +1,6 @@
 <template id="_error-template" hidden>
   <div class="page">
-    <h1 class="page-title">{{ strings.error.title | default:"Error" }}</h1>
+    <h1 class="page-title">{{ strings.error.title | default:"Ошибка" }}</h1>
     {% capture link %}<a class="this-link" href=""></a>{% endcapture %}
     {% assign text = strings.error.message | default:"К сожалению, произошла ошибка при загрузке: <!--link-->." %}
     <p class="lead">
