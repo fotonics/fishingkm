@@ -45,7 +45,7 @@ logo:                  /assets/icons/logo.jpg
 author:
   name:                Сергей Зайцев
   email:               fotonics@yandex.ru
-  # Used by `jekyll-seo-tag`:
+Used by `jekyll-seo-tag`:
   twitter:             fishingkm_ru
 
 # Add links to the sidebar.
